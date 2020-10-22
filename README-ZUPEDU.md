@@ -8,7 +8,7 @@ Repositório para os desafios do orange-stack:
 
 ## Tecnologias
 
-![tecnologias](/resources/imagens/orange-stack.jpg "Imagem")
+![tecnologias](/recursos/imagens/orange-stack.jpg "Imagem")
 
 ## Formato
 
@@ -26,11 +26,11 @@ desafio temos essa margem:
 020-remover-cartao.md
 ```
 
-- Cada **Atividade** deve seguir o **[template](/resources/template-atividade.md)**
+- Cada **Atividade** deve seguir o **[template](/recursos/template-atividade.md)**
 
 ## Materias
 
-Os **materias** devem estar em sua pasta **específica** que se encontra no **[resources](/resources)**
+Os **materias** devem estar em sua pasta **específica** que se encontra no **[resources](/recursos)**
 
 ```text
 imagens

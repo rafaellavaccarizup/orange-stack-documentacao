@@ -1,1 +1,1 @@
-# [Seguir template](../resources/template-atividade.md)
+# [Seguir template](../recursos/template-atividade.md)
