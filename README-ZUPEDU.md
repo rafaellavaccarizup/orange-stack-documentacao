@@ -27,3 +27,14 @@ desafio temos essa margem:
 ```
 
 - Cada **Atividade** deve seguir o **[template](/resources/template-atividade.md)**
+
+## Materias
+
+Os **materias** devem estar em sua pasta **específica** que se encontra no **[resources](/resources)**
+
+```text
+imagens
+material-procedural
+material-suporte
+videos
+```
