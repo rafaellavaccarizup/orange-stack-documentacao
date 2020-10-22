@@ -30,7 +30,7 @@ desafio temos essa margem:
 
 ## Materias
 
-Os **materias** devem estar em sua pasta **específica** que se encontra no **[resources](/recursos)**
+Os **materias** devem estar na sua pasta **específica** que se encontra do diretório denominado **[recursos](/recursos)**
 
 ```text
 imagens
