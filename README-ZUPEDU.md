@@ -14,7 +14,7 @@ Repositório para os desafios do orange-stack:
 
 - Cada desafio tem como **primeira** atividade o **setup** do projeto.
 
-- As atividades estão **indexadas** por número e com **salto** de **5**, pois, caso precisar adicionar um material ou 
+- As atividades estão **indexadas** por número e com **salto** de **5**, pois, caso precise adicionar um material ou 
 desafio temos essa margem:
 
 ```text
