@@ -1,0 +1,1 @@
+# Pasta destinada a armazenar as imagens utilizadas nos projetos

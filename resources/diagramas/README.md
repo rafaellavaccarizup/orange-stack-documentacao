@@ -1,0 +1,1 @@
+# Pasta para [diagramas](https://www.diagrams.net/)
