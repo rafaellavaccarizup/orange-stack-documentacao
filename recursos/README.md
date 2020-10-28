@@ -4,4 +4,3 @@
 - [imagens](imagens)
 - [material-procedural](material-procedural)
 - [material-suporte](material-suporte)
-- [videos](videos)
