@@ -25,7 +25,7 @@ Gerenciador de dependência
 
 - [Gradle](https://gradle.org/)
 
-#### Hora de começar, por onde começar?
+### Hora de começar, por onde começar?
 
 Existem várias maneiras de se começar, o recomendado e utilizado no mercado \ ZUP é o [Micronaut Initializr!](https://micronaut.io/launch/)
 
