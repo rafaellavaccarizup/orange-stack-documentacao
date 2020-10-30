@@ -11,7 +11,7 @@ Possibilitar que um usuário/sistema consulte dados de um terminal.
 ## Restrições
 
 - identificador do terminal é obrigatório na consulta.
-- Devemos seguir as boas práticas de REST.
+- Devemos seguir as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 
