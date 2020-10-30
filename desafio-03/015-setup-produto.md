@@ -6,7 +6,7 @@ Sabemos que está ansioso(a) para começar a codificar, porém antes precisamos 
 
 ## Descrição
 
-Nessa tarefa precisamos criar um projeto para atender as funcionalidades da **Proposta**, para tal, temos alguns pré requisitos de linguagem de programação e tecnologia, pois precisamos que esse projeto seja evoluído e mantido por anos, portanto é extremamente importante a escolha das mesmas.
+Nessa tarefa precisamos criar um projeto para atender as funcionalidades da **Produto**, para tal, temos alguns pré requisitos de linguagem de programação e tecnologia, pois precisamos que esse projeto seja evoluído e mantido por anos, portanto é extremamente importante a escolha das mesmas.
 
 Nosso mais experiência membro do time, sugeriu os seguintes itens:
 
