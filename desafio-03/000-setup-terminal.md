@@ -19,7 +19,7 @@ Linguagem de programação
 
 Tecnologia
 
-- [Micronaut](http://micronaut.io/)
+- [Micronaut](https://micronaut.io/)
 
 Gerenciador de dependência
 
@@ -36,5 +36,5 @@ Existem várias maneiras de se começar, o **recomendado** e utilizado no mercad
 Projeto gerado com as tecnologias sugeridas:
 
 - [Kotlin](https://kotlinlang.org/)
-- [Micronaut](http://micronaut.io/)
+- [Micronaut](https://micronaut.io/)
 - [Gradle](https://gradle.org/)
