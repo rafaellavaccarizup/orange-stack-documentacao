@@ -1,35 +1,39 @@
-# Criação de um produto
+# Criação de um pagamento
 
 ## Contexto
 
-Produto é um cartão, um cartão em geral tem algumas informações como por emissor do cartão, nosso caso representado por uma instituição financeira,
-nome do produto, por exemplo Itaucard 2.0 e modalidade débito/crédito.
+Precisamos de uma API que seja capaz de receber requisições de pagamento, essa API vai atender
+terminais POS (maquininha) que se encontra nos estabelecimentos.
+Essa API deve ser síncrona de maneira que o cliente tenha resposta no momento
+da compra.
 
-Essa informação é bastante importante porque ela poderá ser usada no terminal, indicando se um determinado terminal pode
-realizar transações de um determinado produto.
-
-Itaucard 2.0 operação crédito por exemplo 
 
 ## Objetivo
 
-Realizar a criação de um produto
+Realizar a criação de uma API Rest para receber requisições de transações financeiras
 
 ## Necessidades
 
-O Produto tem as seguintes informações
-- Nome do Emissor (Instituição Financeira)
-- Nome do Produto (Itaucard 2.0)
-- Modalidade (crédito/débito)
+A Requisição de transações deve conter as seguintes informações
+- Token do cartão (que nesse caso foi previamente criado)
+- Identificador do terminal
+- Identificador do produto
+- Valor da Transação
+- Data/Hora da transação no Terminal
 
 ## Restrições
 
-- Nome do emissor obrigatório
-- Nome do Produto obrigatório 
-- Modalidade (crédito/débito) obrigatória 
+- Token do cartão (que nesse caso foi previamente criado) obrigatório
+- Identificador do terminal obrigatório
+- Identificador do produto obrigatório
+- Valor da Transação obrigatório
+- Data/Hora da transação no Terminal obrigatório
 
 ## Resultado Esperado
 
-- O novo produto deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+- A proposta deve estar armazenada no sistema, com um identificador gerado pelo sistema.
+- Retornar **201** com Header Location preenchido com a URL da nova proposta em caso de sucesso.
+- Retornar **400** quando violado alguma das restrições.
 
 ## Informações de suporte
 
