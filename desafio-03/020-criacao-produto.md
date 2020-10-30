@@ -2,34 +2,31 @@
 
 ## Contexto
 
-Produto é um cartão, um cartão em geral tem algumas informações como por emissor do cartão, nosso caso representado por uma instituição financeira,
-nome do produto, por exemplo Itaucard 2.0 e modalidade débito/crédito.
-
-Essa informação é bastante importante porque ela poderá ser usada no terminal, indicando se um determinado terminal pode
-realizar transações de um determinado produto.
-
-Itaucard 2.0 operação crédito por exemplo 
+Produto é um tipo de cartão (Débito, Crédito, etc.) que tem algumas informações como emissor do cartão, nome do produto e modalidade nas quais são utilizadas pelo terminal para saber deve proseguir ou não com a transação de compra ou estorno\cancelamento.
 
 ## Objetivo
 
-Realizar a criação de um produto
+Realizar a criação de um produto.
 
 ## Necessidades
 
-O Produto tem as seguintes informações
+O Produto tem as seguintes informações:
+
 - Nome do Emissor (Instituição Financeira)
 - Nome do Produto (Itaucard 2.0)
 - Modalidade (crédito/débito)
 
 ## Restrições
 
-- Nome do emissor obrigatório
-- Nome do Produto obrigatório 
-- Modalidade (crédito/débito) obrigatória 
+- Nome do emissor deve ser obrigatório.
+- Nome do Produto deve ser obrigatório.
+- Modalidade (crédito/débito) deve ser obrigatória.
+- Devemos seguir as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 
-- O novo produto deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+- Em caso de sucesso, o novo produto deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+- Em caso de erro, deve ser retornado o erro específicos.
 
 ## Informações de suporte
 
