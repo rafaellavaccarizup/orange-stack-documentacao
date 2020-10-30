@@ -24,12 +24,12 @@ Realizar a criação de um terminal no sistema.
 - Nome do estabelecimento deve ser obrigatrio
 - Endereço do estabelecimento, contendo logradouro, cep, complemento, cidade, estado e país
 - Caso sucesso o terminal deve estar com status "ativo"
+- Devemos seguir as boas práticas de REST.
 
 ## Resultado Esperado
 
 - Em caso de sucesso, o novo terminal deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
 - Em caso de erro, deve ser retornado o erro específicos.
-- Devemos seguir as boas práticas de REST em ambos os cenários.
 
 ## Informações de suporte
 
