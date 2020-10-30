@@ -24,7 +24,7 @@ Realizar a criação de um terminal no sistema.
 - Nome do estabelecimento deve ser obrigatrio
 - Endereço do estabelecimento, contendo logradouro, cep, complemento, cidade, estado e país
 - Caso sucesso o terminal deve estar com status "ativo"
-- Devemos seguir as boas práticas de REST.
+- Devemos seguir as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 
