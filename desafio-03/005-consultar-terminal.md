@@ -2,19 +2,21 @@
 
 ## Objetivo
 
-Possibilitar que um usuário/sistema consulte dados de um terminal
+Possibilitar que um usuário/sistema consulte dados de um terminal.
 
 ## Necessidades
 
-- Realizar a consulta com retorno dos dados relativos ao terminal
+- Realizar a consulta com retorno dos dados relativos ao terminal.
 
 ## Restrições
 
-- identificador do terminal é obrigatório na consulta
+- identificador do terminal é obrigatório na consulta.
+- Devemos seguir as boas práticas de REST em ambos os cenários.
 
 ## Resultado Esperado
 
-- Dados do terminal no corpo da resposta
+- Em caso de sucesso, deve ser retornado os dados do terminal.
+- Em caso de erro, deve ser retornado o erro específicos.
 
 ## Informações de suporte
 
