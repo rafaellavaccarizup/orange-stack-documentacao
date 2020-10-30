@@ -10,7 +10,7 @@ Está tarefa deve ser realizada depois do cadastro de produtos.
 
 ## Objetivo
 
-Realizar a associação de um ou mais produtos ao terminal, permitindo que um terminal seja capaz de realizar transações de um determinado
+Realizar a associação de um ou mais produtos ao terminal, permitindo que um terminal seja capaz de realizar transações de um ou mais produtos
 produto.
 
 ## Necessidades
