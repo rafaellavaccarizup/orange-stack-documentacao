@@ -2,34 +2,37 @@
 
 ## Contexto
 
-Cada terminal pode realizar de um determinado conjunto de produtos. Esta informação deve estar 
-realizada na entidade do terminal, para isso precisamos cadastrar os produtos (Cartão Itaucard 2.0 - Modalidade Crédito)
+Cada terminal pode suportar um determinado conjunto de produtos. Está informação deve estar 
+cadastrada no terminal, para isso precisamos cadastrar os produtos (Cartão Itaucard 2.0 - Modalidade Crédito)
 nos terminais. 
 
-Esta tarefa deve ser realizada depois do cadastro de produtos.
+Está tarefa deve ser realizada depois do cadastro de produtos.
 
 ## Objetivo
 
-Realizar a associação de um produto ao terminal, permitindo que um terminal seja capaz realizar transações de um determinado
+Realizar a associação de um ou mais produtos ao terminal, permitindo que um terminal seja capaz de realizar transações de um determinado
 produto.
 
 ## Necessidades
 
-A associação deve conter as seguintes informações
+A associação deve conter as seguintes informações:
+
 - Identificador do terminal
 - Identificador do produto
 - Data de inclusão da associação
 
 ## Restrições
 
-- Identificador do terminal obrigatório
-- Identificador do produto obrigatório
-- Terminal já deve estar registrado no sistema
-- Produto já deve estar registrado no sistema de produtos
+- Identificador do terminal deve ser obrigatório
+- Identificador do produto deve ser obrigatório
+- Terminal deve estar registrado e ativo no sistema
+- Produto deve estar registrado e ativo no sistema
+- Devemos seguir as boas práticas de integração utilizada
 
 ## Resultado Esperado
 
-- A nova associação deve ser efetivada com sucesso caso o terminal e produto esteja apto a realizar transações do produto.
+- Em caso de sucesso, o terminal deve estar apto a realizar transações do(s) produto(s).
+- Em caso de erro, deve ser retornado o erro específicos.
 
 ## Informações de suporte
 
