@@ -13,7 +13,7 @@ Realizar a inativação de um terminal no sistema.
 
 ## Restrições
 
-- identificador do terminal é obrigatório no processo de inativação.
+- Identificador do terminal é obrigatório no processo de inativação.
 - Devemos seguir as boas práticas de REST.
 
 ## Resultado Esperado
