@@ -2,17 +2,20 @@
 
 ## Objetivo
 
-Sabemos que está ansioso(a) para começar a codificar, porém antes precisamos preparar nosso ambiente, portanto esse será nosso objetivo nessa tarefa.
+Sabemos que está ansioso(a) para começar a codificar, porém antes precisamos preparar nosso ambiente, portanto esse 
+será nosso objetivo nessa tarefa.
 
 ## Descrição
 
-Nessa tarefa precisamos criar um projeto para atender as funcionalidades da **Produto**, para tal, temos alguns pré requisitos de linguagem de programação e tecnologia, pois precisamos que esse projeto seja evoluído e mantido por anos, portanto é extremamente importante a escolha das mesmas.
+Nessa tarefa precisamos criar um projeto para atender as funcionalidades do **Produto**, para tal, temos alguns 
+pré requisitos de linguagem de programação e tecnologia, pois precisamos que esse projeto seja evoluído e mantido por 
+anos, portanto é extremamente importante a escolha das mesmas.
 
-Nosso mais experiência membro do time, sugeriu os seguintes itens:
+Nosso mais experiente membro do time, sugeriu os seguintes itens:
 
 Linguagem de programação
 
-- [Kotlin 1.3](https://kotlinlang.org/)
+- [Kotlin](https://kotlinlang.org/)
 
 Tecnologia
 
@@ -22,21 +25,16 @@ Gerenciador de dependência
 
 - [Gradle](https://gradle.org/)
 
-#### Hora de começar, por onde começar?
+### Hora de começar, por onde começar?
 
-Existem várias maneiras de se começar, como por exemplo:
+Existem várias maneiras de se começar, o **recomendado** e utilizado no mercado \ ZUP é o [Micronaut Initializr!](https://micronaut.io/launch/)
 
-- Utilizar o [Micronaut Launcher](https://micronaut.io/launch/)
-- Utilizar o [Micronaut CLI](https://docs.micronaut.io/latest/guide/index.html#buildCLI).
-
-**Importante**
-
-Bora gerar nosso projeto e começar a codificar?
+* Está em dúvida de como gerar o projeto? Não se preocupe [gravamos um vídeo explicativo para você!](https://drive.google.com/file/d/1uGE8X15_mVz0AG4pttgEgfCxtDbV-zxn/view?usp=sharing)
 
 ## Resultado Esperado
 
 Projeto gerado com as tecnologias sugeridas:
 
-- [Kotlin 1.3](https://kotlinlang.org/)
+- [Kotlin](https://kotlinlang.org/)
 - [Micronaut](https://micronaut.io/)
 - [Gradle](https://gradle.org/)
