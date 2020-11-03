@@ -1,6 +1,6 @@
 # Criação de Parceiro
 
-Precisamos cadastrar os parceiros do banco que podem fazer uso do sistema de [Tokenização](001-desafio.md).
+Precisamos cadastrar os parceiros do banco que podem fazer uso do sistema de [Tokenização](../README.md).
 
 ## Necessidades
 
@@ -15,11 +15,15 @@ Precisamos cadastrar os parceiros do banco que podem fazer uso do sistema de [To
        
 ## Restrições
 
+Devemos receber os seguintes dados do parceiro:
+
 - Nome do Parceiro deve ser obrigatório.
 
 - CNPJ deve ser obrigatório, válido e único.
 
 - Tipo de Canal deve ser obrigatório .
+
+**Lembre-se** devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 
