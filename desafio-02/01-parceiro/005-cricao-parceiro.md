@@ -1,14 +1,14 @@
-# Criação de Parceiro
+# Criação de Parceiro(a)
 
 ## Necessidades
 
-Precisamos cadastrar os parceiros do banco que podem fazer uso do sistema de [Tokenização](../README.md).
+Precisamos cadastrar os parceiros(as) do banco que podem fazer uso do sistema de [Tokenização](../README.md).
    
 ## Restrições
 
-Devemos receber os seguintes dados do parceiro:
+Devemos receber os seguintes dados do parceiro(a):
 
-- Nome do Parceiro deve ser obrigatório.
+- Nome do Parceiro(a) deve ser obrigatório.
 
 - CNPJ deve ser obrigatório, válido e único.
 
@@ -21,7 +21,8 @@ Devemos receber os seguintes dados do parceiro:
 
 ## Resultado Esperado
 
-- Em caso de sucesso, o parceiro deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+- Em caso de sucesso, o(a) parceiro(a) deve ser armazenado(a) no sistema, com um identificador gerado pelo sistema 
+não sequencial.
 
 - Em caso de erro, deve ser retornado o erro específicos.
 

@@ -1,14 +1,14 @@
-# Consulta de Parceiro
+# Consulta de Parceiro(a)
 
 ## Necessidades
 
-O parceiro e outros sistemas gostariam de consultar se o mesmo existe e quais são seus dados cadastrais.
+O(A) parceiro(a) e outros sistemas gostariam de consultar se o mesmo(a) existe e quais são os seus dados cadastrais.
     
 ## Restrições
 
-Devemos informar os seguintes dados do parceiro:
+Devemos informar os seguintes dados do parceiro(a):
 
-- Nome do Parceiro
+- Nome do(a) Parceiro(a)
 - CNPJ
 - Tipo de Canal
     - NFC: Near-field communication    
@@ -19,7 +19,7 @@ Devemos informar os seguintes dados do parceiro:
 
 ## Resultado Esperado
 
-- Em caso de sucesso, devemos informar os dados do parceiro solicitado.
+- Em caso de sucesso, devemos informar os dados do parceiro(a) solicitado.
 
 - Em caso de erro, deve ser retornado o erro específicos.
 
