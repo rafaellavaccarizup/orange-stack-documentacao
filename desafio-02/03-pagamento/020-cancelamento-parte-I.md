@@ -31,7 +31,9 @@ Devemos armazenar os seguintes dados:
 
 ## Resultado Esperado
 
-- Em caso de sucesso, o pagamento deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+- Em caso de sucesso:
+    - O cancelamento deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+    - O pagamento deve ser armazenado no sistema com status **CANCELADO**
 
 - Em caso de erro, deve ser retornado o erro específicos.
 
