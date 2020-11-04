@@ -13,7 +13,7 @@ Caso o parceiro(a) resolva os seus problemas contratuais o banco pode reativar o
 
 - Na [criação do parceiro(a)](005-cricao-parceiro.md) devemos criar como ativado(a).
 
-- Na [consulta de parceiro(a)](015-consulta-parceiro.md) devemos informar o status do mesmo(a).
+- Na [consulta de parceiro(a)](015-consulta-parceiro.md) devemos informar o status do(a) mesmo(a).
 
 **Lembre-se** devemos utilizar as boas práticas de integração utilizada.
 
