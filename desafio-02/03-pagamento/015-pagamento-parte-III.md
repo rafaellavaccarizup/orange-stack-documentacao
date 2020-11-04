@@ -14,9 +14,9 @@ enviar **assincronamente** para o sistema de **fraude** analisar tal ação.
 
 Devemos fornecer os seguintes dados:
 
-- Identificador da transação
+- Identificador da transação de pagamento
 
-- A hora e data em UTC da geração do token
+- A hora e data em UTC da transação
 
 - CNPJ do estabelecimento deve ser obrigatório
 
