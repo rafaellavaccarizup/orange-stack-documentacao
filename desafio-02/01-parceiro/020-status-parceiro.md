@@ -11,7 +11,7 @@ Caso o parceiro(a) resolva os seus problemas contratuais o banco pode reativar o
 
 - Devemos ativar ou desativar um determinado parceiro(a) no sistema.
 
-- Na [criação do parceiro(a)](005-cricao-parceiro.md) devemos criar como ativado(a).
+- Na [criação do parceiro(a)](005-cricao-parceiro-parte-I.md) devemos criar como ativado(a).
 
 - Na [consulta de parceiro(a)](015-consulta-parceiro.md) devemos informar o status do(a) mesmo(a).
 

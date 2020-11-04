@@ -1,4 +1,4 @@
-# Tokenização Parte II
+# Tokenização - Parte II
 
 ## Necessidades
 
@@ -7,7 +7,7 @@ verificações de segurança, tais como:
  
 - Qual canal (parceiro) foi feito a solicitação de [tokenização](005-tokenizacao-parte-I.md)
 
-- Os dados do cartão foram criptografados com a chave do(a) [parceiro(a)](../01-parceiro/005-cricao-parceiro.md)
+- Os dados do cartão foram criptografados com a chave do(a) [parceiro(a)](../01-parceiro/005-cricao-parceiro-parte-I.md)
    
 ## Restrições
 
