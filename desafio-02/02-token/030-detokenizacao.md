@@ -11,6 +11,12 @@ Devemos receber os seguintes dados:
 
 - Identificador do token deve ser obrigatório.
 
+- Identificador do(a) parceiro(a) deve ser obrigatório e ser um(a) parceiro(a) existente e ativo(a).
+
+Devemos efetuar as seguintes validações:
+
+- Token deve pertencer ao parceiro(a) fornecido
+
 Devemos retornar os seguintes dados:
 
 - Nome do(a) portador(a) do cartão em texto aberto.

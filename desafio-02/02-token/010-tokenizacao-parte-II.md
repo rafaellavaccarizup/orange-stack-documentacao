@@ -15,7 +15,7 @@ Devemos receber os seguintes dados:
 
 - Identificador do(a) parceiro(a) deve ser obrigatório e ser um(a) parceiro(a) existente e ativo(a).
 
-Devemos verificar os seguintes dados:
+Devemos efetuar as seguintes validações:
 
 - Nome do(a) portador(a) do cartão deve ser criptografado com a chave RSA pública do(a) parceiro(a)
 - CPF do(a) portador(a) do cartão deve ser criptografado com a chave RSA pública do(a) parceiro(a)
