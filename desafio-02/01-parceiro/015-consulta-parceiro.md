@@ -9,11 +9,14 @@ O(A) parceiro(a) e outros sistemas gostariam de consultar se o mesmo(a) existe e
 Devemos informar os seguintes dados do(a) parceiro(a):
 
 - Nome do(a) Parceiro(a)
+
 - CNPJ
+
 - Tipo de Canal
     - NFC: Near-field communication    
     - ECM: Ecommerce       
     - MOB: Mobile
+    
 - Chave RSA pública
 
 **Lembre-se** devemos utilizar as boas práticas de integração utilizada.

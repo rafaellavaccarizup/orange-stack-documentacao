@@ -10,8 +10,11 @@ Como o banco e o sistema de **fraude** irá interagir com essa **API REST**, ser
 **Contrato**
 
 - **Método HTTP:** Deve ser o PATCH.
+
 - **URL:** Deve receber o identificador do token, como por exemplo: /tokens/{tokenId}
+
 - **Headers:** Não deve possuir.
+
 - **Body:** Deve ser passado os seguintes campos:
     - **status** no tipo String podendo ser os seguintes valores:
         - ACTIVE

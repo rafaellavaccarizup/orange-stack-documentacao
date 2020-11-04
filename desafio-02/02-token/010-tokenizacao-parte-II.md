@@ -18,9 +18,13 @@ Devemos receber os seguintes dados:
 Devemos efetuar as seguintes validações:
 
 - Nome do(a) portador(a) do cartão deve ser criptografado com a chave RSA pública do(a) parceiro(a)
+
 - CPF do(a) portador(a) do cartão deve ser criptografado com a chave RSA pública do(a) parceiro(a)
+
 - Número do cartão deve ser criptografado com a chave RSA pública do(a) parceiro(a)
+
 - Data de expiração do cartão no formato MMYY deve-ser criptografado com a chave RSA pública do(a) parceiro(a)
+
 - Código de verificação (CVV) do cartão deve-ser criptografado com a chave RSA pública do(a) parceiro(a)
 
 **Lembre-se** devemos utilizar as boas práticas de integração utilizada.

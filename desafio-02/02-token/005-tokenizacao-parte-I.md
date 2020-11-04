@@ -10,14 +10,19 @@ um **token único não sequencial** que representa o cartão para aquele parceir
 Devemos receber os seguintes dados:
 
 - Nome do(a) portador(a) do cartão deve ser obrigatório.
+
 - CPF do(a) portador(a) do cartão deve ser obrigatório.
+
 - Número do cartão deve ser obrigatório.
+
 - Data de expiração do cartão no formato MMYY deve ser obrigatório.
+
 - Código de verificação (CVV) do cartão deve ser obrigatório.
 
 Devemos armazenar os seguintes dados:
 
 - Todos os dados que recebemos na requisição
+
 - A hora e data em UTC da operação
 
 **Lembre-se** devemos utilizar as boas práticas de integração utilizada.

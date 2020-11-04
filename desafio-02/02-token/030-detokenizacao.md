@@ -20,9 +20,13 @@ Devemos efetuar as seguintes validações:
 Devemos retornar os seguintes dados:
 
 - Nome do(a) portador(a) do cartão em texto aberto.
+
 - CPF do(a) portador(a) do cartão em texto aberto.
+
 - Número do cartão em texto aberto.
+
 - Data de expiração do cartão no formato MMYY em texto aberto.
+
 - Código de verificação (CVV) do cartão em texto aberto.
 
 **Lembre-se** devemos utilizar as boas práticas de integração utilizada.
