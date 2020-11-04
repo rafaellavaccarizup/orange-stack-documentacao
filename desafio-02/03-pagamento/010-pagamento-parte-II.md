@@ -18,9 +18,9 @@ o fluxo de [detokenização](../02-token/030-detokenizacao.md) antes.
 
 ## Resultado Esperado
 
-- Em caso de sucesso, o pagamento deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+- Caso a devolutiva do pagamento for **APROVADA** o pagamento deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
 
-- Em caso de erro, deve ser retornado o erro específicos.
+- Caso a devolutiva do pagamento **não** for **APROVADA** devemos cancelar a requisição de pagamento.
 
 ## Informações de suporte
 

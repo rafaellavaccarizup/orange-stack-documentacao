@@ -1,8 +1,9 @@
-# Pagamento - Parte I
+# Cancelamento - Parte I
 
 ## Necessidades
 
-Precisamos desenvolver uma funcionalidade de **pagamento** que recebe o parceiro, token e informações da transação.
+Precisamos desenvolver uma funcionalidade de **cancelamento** que recebe o token, parceiro e o identificador da transação 
+de pagamento com o objetivo de cancelar a mesma.
 
 ## Restrições
 
@@ -12,9 +13,13 @@ Devemos receber os seguintes dados:
 
 - Identificador do(a) parceiro(a) deve ser obrigatório e ser um(a) parceiro(a) existente e [ativo(a)](../01-parceiro/020-status-parceiro.md).
 
-- CNPJ do estabelecimento deve ser obrigatório
+- Identificador da transação de pagamento.
 
-- Valor deve ser obrigatório e maior que zero.
+Devemos efetuar as seguintes validações:
+
+- A transação de pagamento deve ser do mesmo token e parceiro
+
+- A transação de pagamento deve estar no status **APROVADA**
 
 Devemos armazenar os seguintes dados:
 
