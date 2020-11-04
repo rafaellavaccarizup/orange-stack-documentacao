@@ -8,7 +8,7 @@ Precisamos cadastrar os parceiros(as) do banco que podem fazer uso do sistema de
 
 Devemos receber os seguintes dados do parceiro(a):
 
-- Nome do Parceiro(a) deve ser obrigatório.
+- Nome do(a) Parceiro(a) deve ser obrigatório.
 
 - CNPJ deve ser obrigatório, válido e único.
 
@@ -16,6 +16,10 @@ Devemos receber os seguintes dados do parceiro(a):
     - NFC: Near-field communication    
     - ECM: Ecommerce       
     - MOB: Mobile
+    
+- Chave RSA privada deve ser obrigatória.
+
+- Chave RSA pública deve ser obrigatória.
 
 **Lembre-se** devemos utilizar as boas práticas de integração utilizada.
 

@@ -6,7 +6,7 @@ O(A) parceiro(a) e outros sistemas gostariam de consultar se o mesmo(a) existe e
     
 ## Restrições
 
-Devemos informar os seguintes dados do parceiro(a):
+Devemos informar os seguintes dados do(a) parceiro(a):
 
 - Nome do(a) Parceiro(a)
 - CNPJ
@@ -14,6 +14,7 @@ Devemos informar os seguintes dados do parceiro(a):
     - NFC: Near-field communication    
     - ECM: Ecommerce       
     - MOB: Mobile
+- Chave RSA pública
 
 **Lembre-se** devemos utilizar as boas práticas de integração utilizada.
 
