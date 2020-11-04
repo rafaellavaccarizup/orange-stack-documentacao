@@ -1,1 +1,0 @@
-# [Seguir template](../recursos/template-atividade.md)
