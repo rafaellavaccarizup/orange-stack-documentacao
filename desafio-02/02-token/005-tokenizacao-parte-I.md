@@ -3,7 +3,7 @@
 ## Necessidades
 
 Precisamos desenvolver uma funcionalidade de **tokenização** que recebe os dados do(a) portador(a) do cartão e gerar 
-um **token único** que representa o cartão para aquele parceiro\canal de compra.
+um **token único não sequencial** que representa o cartão para aquele parceiro\canal de compra.
 
 ## Restrições
 
