@@ -1,18 +1,9 @@
 # Criação de Parceiro
 
-Precisamos cadastrar os parceiros do banco que podem fazer uso do sistema de [Tokenização](../README.md).
-
 ## Necessidades
 
-- Nome do Parceiro
-
-- CNPJ
-
-- Tipo de Canal
-    - NFC: Near-field communication    
-    - ECM: Ecommerce       
-    - MOB: Mobile
-       
+Precisamos cadastrar os parceiros do banco que podem fazer uso do sistema de [Tokenização](../README.md).
+   
 ## Restrições
 
 Devemos receber os seguintes dados do parceiro:
@@ -21,7 +12,10 @@ Devemos receber os seguintes dados do parceiro:
 
 - CNPJ deve ser obrigatório, válido e único.
 
-- Tipo de Canal deve ser obrigatório .
+- Tipo de Canal deve ser obrigatório.
+    - NFC: Near-field communication    
+    - ECM: Ecommerce       
+    - MOB: Mobile
 
 **Lembre-se** devemos utilizar as boas práticas de integração utilizada.
 
