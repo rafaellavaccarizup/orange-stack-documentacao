@@ -15,6 +15,11 @@ Devemos receber os seguintes dados:
 - Data de expiração do cartão no formato MMYY deve ser obrigatório.
 - Código de verificação (CVV) do cartão deve ser obrigatório.
 
+Devemos armazenar os seguintes dados:
+
+- Todos os dados que recebemos na requisição
+- A hora e data em UTC da operação
+
 **Lembre-se** devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
