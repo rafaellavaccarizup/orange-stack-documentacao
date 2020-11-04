@@ -3,7 +3,12 @@
 ## Necessidades
 
 No fluxo de [tokenização](005-tokenizacao-parte-I.md) recebemos os dados do cartão e do(a) parceiro(a), porém, precisamos 
-enviar **assincronamente** para o sistema de **fraude** analisar tal ação. 
+enviar **assincronamente** para o sistema de **fraude** analisar tal ação.
+
+**Informações do Kafka** - FIXME LURAM
+
+- Tópico
+- Contrato da mensagem 
    
 ## Restrições
 
