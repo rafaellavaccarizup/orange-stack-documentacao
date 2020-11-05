@@ -45,7 +45,7 @@ Para gerar uma cobrança via Pix, precisamos que o usuário informe os seguintes
 ## Resultado Esperado
 
 - Em caso de sucesso, deve-se gerar uma cobrança no sistema e retornar os seguintes metadados:
-  - **Id da cobrança**: obrigatório e único;
+  - **ID da cobrança**: obrigatório e único;
   - **Tipo de cobrança**: obrigatório e pode assumir os valores:
     - Estático;
     - Dinâmico;
