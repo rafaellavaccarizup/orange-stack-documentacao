@@ -2,24 +2,13 @@
 
 ## Necessidades
 
-Nosso usuário precisa excluir suas chaves Pix cadastradas, pois dessa forma ele poderá recriar uma chave associada à uma nova conta corrente ou poupança.
+Nosso usuário precisa excluir suas chaves Pix cadastradas, pois dessa forma, se necessário, ele poderá recriar uma chave associada à uma nova conta corrente ou poupança.
    
 ## Restrições
 
 Para excluir uma chave Pix, precisamos que o usuário informe os seguintes dados:
 
-- **Tipo da chave** deve ser obrigatório, e pode ser:
-    - CPF;
-    - telefone celular;
-    - email;
-    - chave aleatória;
-
-- **Valor da chave** deve ser obrigatório:
-    - Quando tipo for CPF, usar um CPF existente;
-    - Quando tipo for telefone celular, usar um número existente;
-    - Quando tipo for email, usar um email existente;
-    - Quando tipo for chave aleatória, usar um apelido (alias) existente;
-
+- **Chave Pix** deve ser obrigatório;
 
 ## Resultado Esperado
 
