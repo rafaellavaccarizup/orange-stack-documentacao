@@ -2,23 +2,23 @@
 
 ## Necessidades
 
-Não basta registrar chaves Pix no nosso sistema. Elas precisam ser **registradas no Banco Central (BCB)**, caso contrário elas não poderão ser compartilhadas e utilizadas abertamente por diversas pessoas e instituições financeiras, como bancos e fintechs.
+Não basta registrar as chaves Pix no nosso sistema, elas precisam ser **registradas no Banco Central (BCB)**, caso contrário elas não poderão ser compartilhadas por nossos usuários nem utilizadas abertamente por diversas pessoas e instituições financeiras, como bancos, fintechs e meios de pagemento.
 
-Por esse motivo, sempre que registrarmos uma chave Pix no nosso sistema ela também deve ser registrada globalmente, ou seja, no sistema Pix do BCB. Não só isso, caso uma chave seja excluída do nosso sistema ela também deverá ser excluída no BCB.
+Por esse motivo, sempre que registrarmos uma chave Pix no nosso sistema ela também deve ser registrada globalmente, ou seja, no **Sistema Pix do BCB**. Não só isso, caso uma chave seja excluída do nosso sistema ela também deverá ser excluída no BCB.
    
 ## Restrições
 
-Para registrar ou excluir uma chave Pix globalmente, precisamos nos integrar ao sistema Pix do BCB por meio de uma API REST disponibilizada por eles. Para acessar a API e analisá-la, basta acessar o link abaixo:
+Para registrar ou excluir uma chave Pix globalmente, precisamos nos integrar ao Sistema Pix do BCB por meio de uma API REST disponibilizada por eles. Para acessar a API e analisá-la, basta acessar o link abaixo:
 
 [http://localhost:8888/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/](http://localhost:8888/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/)
 
-Lembre-se, nosso sistema precisa **manter um link** entre a chave cadastrada no nosso sistema e a chave registrada no sistema Pix do BCB, caso contrário não poderemos compartilhá-la nem excluí-la futuramente. Ou seja, um chave desconhecida pelo BCB é um chave inválida.
+Lembre-se, nosso sistema precisa **manter um link** entre a chave cadastrada no nosso sistema e a chave registrada no Sistema Pix do BCB, caso contrário não poderemos compartilhá-la nem excluí-la futuramente. Ou seja, um chave desconhecida pelo BCB é um chave inválida.
 
 ## Resultado Esperado
 
-- Ao cadastrar uma chave no nosso sistema, deve-se garantir que ela esteja devidamente registrada no sistema Pix do BCB;
+- Ao cadastrar uma chave no nosso sistema, deve-se garantir que ela esteja devidamente registrada no Sistema Pix do BCB;
 
-- Ao excluir uma chave existente no nosso sistema, deve-se garantir que ela tenha sido excluída primeiramente do sistema Pix do BCB;
+- Ao excluir uma chave existente no nosso sistema, deve-se garantir que ela tenha sido excluída primeiramente do Sistema Pix do BCB;
 
 - Uma chave Pix no nosso sistema somente poderá ser disponibilizada para uso dos usuários (compartilhamento, geração cobrança, pagamentos etc) quando ela estiver devidamente registrada e linkada à uma chave Pix existente no BCB;
 
