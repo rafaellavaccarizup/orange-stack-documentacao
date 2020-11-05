@@ -1,4 +1,4 @@
-# Removendo uma chave Pix existente
+# Registrando uma nova chave Pix
 
 ## Necessidades
 
