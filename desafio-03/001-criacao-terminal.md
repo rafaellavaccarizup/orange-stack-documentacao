@@ -32,3 +32,42 @@ Realizar a criação de um terminal no sistema.
 ## Informações de suporte
 
 ## Sugestões de busca de conteúdo
+
+## ----------------------
+
+## Luram
+
+#### [Bean Validation](https://docs.micronaut.io/1.2.6/guide/index.html#beanValidation)
+
+É preciso adicionar a anotação `@Introspected` conforme exemplo:
+
+```kotlin
+@Introspected
+data class CreateTerminalRequest(
+        @field:NotBlank var document: String? =  null,
+        @field:NotBlank var serial: String? =  null,
+        @field:NotBlank var manufacturer: String? =  null,
+        @field:NotBlank var merchant: String? =  null,
+        @field:NotBlank var merchantAddress: String? =  null
+)
+```
+
+É preciso anotar a classe com a anotação `@Validated`, conforme exemplo:
+
+```kotlin
+@Validated
+class TerminalController() {
+
+}
+```
+
+É preciso anotar o parâmetro do método com a anotação `@Valid`, conforme exemplo:
+
+
+```kotlin
+fun post(@Valid request: CreateTerminalRequest) {
+
+}
+```
+
+#### [Bean Validation - Custom Constraint](https://docs.micronaut.io/1.2.6/guide/index.html#_defining_additional_constraints)
