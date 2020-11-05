@@ -24,6 +24,12 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
     - Conta Corrente;
     - Conta Poupança;
 
+- **Instituição financeira** deve ser obrigatória e possuir o valor `ITAU UNIBANCO`;
+- **Nome completo do titular da conta** deve ser obrigatório;
+- **CPF do titular da conta** deve ser obrigatório e válido;
+- **Agência** deve ser obrigatória e possuir exatamente 4 dígitos;
+- **Número da conta** deve ser obrigatório e possuir exatamente 6 dígitos;
+
 ## Resultado Esperado
 
 - Em caso de sucesso, a chave Pix deve ser registrada e armazenada no sistema;
