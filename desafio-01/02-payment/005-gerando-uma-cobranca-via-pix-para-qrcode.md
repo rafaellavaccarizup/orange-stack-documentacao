@@ -55,7 +55,9 @@ Para gerar uma cobrança via Pix, precisamos que o usuário informe os seguintes
     - CPF (formato `999.999.999-99`);
     - Instituição financeira;
   - **Data e hora de criação**: obrigatório;
-  - **Valor da cobrança**: opcional (pagador pode informar no ato do pagamento);
+  - **Valor da cobrança**:
+    - Quando tipo de cobrança for dinâmico, este campo será obrigatório;
+    - Quando tipo de cobrança for estático, este campo será opcional (pagador pode informar no ato do pagamento);
 
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
