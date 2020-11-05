@@ -24,8 +24,8 @@ Dessa forma, nosso **objetivo** é garantir que nossos usuários possam efetuar 
     02 - Modulo Key-Manager
         02.1 - Setup do projeto: key-manager-grpc
         02.2 - Registrando uma nova chave Pix
-        02.3 - Confirmando o registro da chave Pix via webhook
-        02.4 - Removendo uma chave Pix existente
+        02.3 - Removendo uma chave Pix existente
+        02.4 - Registrando e excluindo chaves Pix no Banco Central (BCB)
         02.5 - Lendo os dados de uma chave Pix
         02.6 - Listando todas as chaves Pix do usuário
         02.7 - Setup do projeto: key-manager-rest
