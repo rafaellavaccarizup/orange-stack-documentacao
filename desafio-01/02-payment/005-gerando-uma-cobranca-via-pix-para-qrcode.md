@@ -33,8 +33,8 @@ Para gerar uma cobrança via Pix, precisamos que o usuário informe os seguintes
 
 - **Chave Pix** é obrigatória;
 - **Tipo de cobrança** é obrigatório, e pode ser:
-  - Dinâmica: o valor da cobrança é informado;
-  - Estática: o valor da cobrança não é informado;
+  - Dinâmica;
+  - Estática;
 
 - **Valor da cobrança** possui precisão de 2 casas decimais e:
   - Quando tipo da cobrança for dinâmico, o valor será obrigatório;
