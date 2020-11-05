@@ -16,6 +16,8 @@ Dessa forma, nosso **objetivo** é garantir que nossos usuários possam efetuar 
 
 ...
 
+[Bacen Open-API: Pix](https://github.com/bacen/pix-dict-api/tree/master/openapi)
+
 # Indice
 
     00 - Desafio: Pix
