@@ -98,10 +98,9 @@ implementation("io.micronaut.aws:micronaut-aws-sdk-v2")
 
 ```yaml
 aws:
-  accessKeyId: ${AWS_KEY_ID:your_access_key_id_here}
-  secretKey: ${AWS_SECRET_ID:your_secret_key_id_here}
-  sessionToken: ${AWS_SESSION_TOKEN:your_session_token_here}
-  region: ${AWS_REGION:eu-west-1}
+  accessKeyId: ${AWS_KEY_ID:test}
+  secretKey: ${AWS_SECRET_ID:test}
+  region: ${AWS_REGION:us-east-1}
 ```
 
 #### [DynamoDB](https://micronaut-projects.github.io/micronaut-aws/latest/guide/#dynamodb)
