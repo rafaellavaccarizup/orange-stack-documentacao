@@ -37,6 +37,84 @@ Realizar a criação de um terminal no sistema.
 
 ## Luram
 
+#### [Localstack](https://github.com/localstack/localstack)
+
+1ª Precisamos rodar o docker-compose
+
+```yaml
+version: '2.1'
+
+services:
+  localstack:
+    container_name: localstack
+    image: localstack/localstack:0.12.1
+    network_mode: bridge
+    ports:
+      - "4566:4566"
+      - "4571:4571"
+    environment:
+      - SERVICES=dynamodb
+      - DEBUG=${DEBUG- }
+      - DATA_DIR=${DATA_DIR- }
+      - DOCKER_HOST=unix:///var/run/docker.sock
+    volumes:
+      - "${TMPDIR:-/tmp/localstack}:/tmp/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+```
+
+2º Precisamos configurar nosso [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+
+```shell script
+$ aws configure --profile default
+
+AWS Access Key ID: test
+AWS Secret Access Key: test
+Default region name [us-east-1]: us-east-1
+```
+
+Para testar se a configuração está ok, execute o comando abaixo:
+
+```shell script
+$ aws --endpoint-url=http://localhost:4566 dynamodb list-tables
+```
+
+3º [Opcional] Precisamos instalar o [LocalStack AWS CLI](https://github.com/localstack/awscli-local)
+
+Para testar a instalação, execute o comando abaixo:
+
+```shell script
+$ awslocal dynamodb list-tables
+```
+
+#### [AWS](https://micronaut-projects.github.io/micronaut-aws/latest/guide/#introduction)
+
+É preciso adicionar a dependência do SDK V2:
+
+```
+implementation("io.micronaut.aws:micronaut-aws-sdk-v2")
+```
+
+É preciso configurar as credencias da AWS no `application.yaml`:
+
+```yaml
+aws:
+  accessKeyId: ${AWS_KEY_ID:your_access_key_id_here}
+  secretKey: ${AWS_SECRET_ID:your_secret_key_id_here}
+  sessionToken: ${AWS_SESSION_TOKEN:your_session_token_here}
+  region: ${AWS_REGION:eu-west-1}
+```
+
+#### [DynamoDB](https://micronaut-projects.github.io/micronaut-aws/latest/guide/#dynamodb)
+
+É preciso configurar o SDK V2 da AWS e adicionar a dependência do SDK do DynamoDB:
+
+```
+implementation platform("com.amazonaws:aws-java-sdk-bom:1.11.894")
+implementation("com.amazonaws:aws-java-sdk-dynamodb")
+```
+
+Para configurar sua entity iremos utilizar o [DynamodbMapper](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBMapper.Methods.html) e suas [Anotações do Dynamodb](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBMapper.Annotations.html)
+
 #### [Bean Validation](https://docs.micronaut.io/1.2.6/guide/index.html#beanValidation)
 
 É preciso adicionar a anotação `@Introspected` conforme exemplo:
