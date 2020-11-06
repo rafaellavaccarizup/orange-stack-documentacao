@@ -91,7 +91,7 @@ $ awslocal dynamodb list-tables
 É preciso adicionar a dependência do SDK V2:
 
 ```
-implementation("io.micronaut.aws:micronaut-aws-sdk-v2")
+implementation platform("com.amazonaws:aws-java-sdk-bom:1.11.894")
 ```
 
 É preciso configurar as credencias da AWS no `application.yaml`:
@@ -108,7 +108,6 @@ aws:
 É preciso configurar o SDK V2 da AWS e adicionar a dependência do SDK do DynamoDB:
 
 ```
-implementation platform("com.amazonaws:aws-java-sdk-bom:1.11.894")
 implementation("com.amazonaws:aws-java-sdk-dynamodb")
 ```
 
