@@ -1,4 +1,4 @@
-# Consultar terminal
+# Consultar Terminal
 
 ## Objetivo
 

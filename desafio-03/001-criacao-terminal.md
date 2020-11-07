@@ -1,4 +1,4 @@
-# Criação de um terminal
+# Criação de um Terminal
 
 ## Contexto
 
@@ -33,6 +33,8 @@ Realizar a criação de um terminal no sistema.
 - Endereço do estabelecimento, contendo logradouro, cep, complemento, cidade, estado e país
 
 - Caso sucesso o terminal deve estar com status "ativo"
+
+- Devemos seguir as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 
