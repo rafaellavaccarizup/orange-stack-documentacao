@@ -18,7 +18,7 @@ A associação deve conter as seguintes informações:
 
 - Identificador do produto na URL
 
-- Data e hora da inclusão da associação
+- Data e hora da inclusão da associação no formato UTC
 
 ## Restrições
 
@@ -26,7 +26,7 @@ A associação deve conter as seguintes informações:
 
 - Identificador do produto deve ser obrigatório
 
-- Data e hora da inclusão deve ser registrada pelo sistema
+- Data e hora da inclusão deve ser registrada pelo sistema no formato UTC
 
 - Terminal deve estar registrado e ativo no sistema
 
