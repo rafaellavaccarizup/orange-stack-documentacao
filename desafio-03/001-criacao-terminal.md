@@ -170,3 +170,5 @@ fun post(@Valid request: CreateTerminalRequest) {
 ```
 
 #### [Bean Validation - Custom Constraint](https://docs.micronaut.io/1.2.6/guide/index.html#_defining_additional_constraints)
+
+#### [Exception Handler](https://docs.micronaut.io/latest/guide/index.html#errorHandling)
