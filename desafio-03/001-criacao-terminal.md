@@ -1,4 +1,4 @@
-# Criação de um Terminal
+# Criação de Terminal
 
 ## Contexto
 
@@ -34,21 +34,21 @@ Realizar a criação de um terminal no sistema.
 
 - Caso sucesso o terminal deve estar com status "ativo"
 
-- Devemos seguir as boas práticas de integração utilizada.
+- Devemos seguir as boas práticas de integração utilizada
 
 ## Resultado Esperado
 
 - Em caso de sucesso:
 
-    - O novo terminal deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+    - O novo terminal deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial
     
-    - Retornar **HTTP Status 201** com Header Location preenchido com a URL do novo terminal.
+    - Retornar **HTTP Status 201** com Header Location preenchido com a URL do novo terminal
     
 - Em caso de erro, deve ser retornado o erro específico:
 
-    - Retornar **HTTP Status 400** quando violado alguma das restrições.
+    - Retornar **HTTP Status 400** quando violado alguma das restrições
     
-    - Retornar **HTTP Status 500** quando ocorrer um erro inesperado.
+    - Retornar **HTTP Status 500** quando ocorrer um erro inesperado
 
 ## Informações de suporte
 

@@ -1,4 +1,4 @@
-# Criação de um produto
+# Criação de Produto
 
 ## Contexto
 
@@ -22,27 +22,27 @@ O Produto tem as seguintes informações:
 
 ## Restrições
 
-- Nome do emissor deve ser obrigatório.
+- Nome do emissor deve ser obrigatório
 
-- Nome do Produto deve ser obrigatório.
+- Nome do Produto deve ser obrigatório
 
-- Modalidade (crédito/débito) deve ser obrigatória.
+- Modalidade (crédito/débito) deve ser obrigatória
 
-- Devemos seguir as boas práticas de integração utilizada.
+- Devemos seguir as boas práticas de integração utilizada
 
 ## Resultado Esperado
 
 - Em caso de sucesso:
 
-    - O novo produto deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+    - O novo produto deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial
     
-    - Retornar **HTTP Status 201** com Header Location preenchido com a URL do novo produto.
+    - Retornar **HTTP Status 201** com Header Location preenchido com a URL do novo produto
     
 - Em caso de erro, deve ser retornado o erro específico:
 
-    - Retornar **HTTP Status 400** quando violado alguma das restrições.
+    - Retornar **HTTP Status 400** quando violado alguma das restrições
     
-    - Retornar **HTTP Status 500** quando ocorrer um erro inesperado.
+    - Retornar **HTTP Status 500** quando ocorrer um erro inesperado
 
 ## Informações de suporte
 
