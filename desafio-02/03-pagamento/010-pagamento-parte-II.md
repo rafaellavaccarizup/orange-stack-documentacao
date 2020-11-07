@@ -14,13 +14,20 @@ o fluxo de [detokenização](../02-token/030-detokenizacao.md) antes.
 
 ## Restrições
 
-**Lembre-se** devemos utilizar as boas práticas de integração utilizada.
+**Lembre-se**
+
+Devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 
-- Caso a devolutiva do pagamento for **APROVADA** o pagamento deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+No fluxo de [pagamento](005-pagamento-parte-I.md) recebemos os dados da transação, porém, o serviço de **issuer** do 
+banco que é responsável por **autorizar** a transação em si.
 
-- Caso a devolutiva do pagamento **não** for **APROVADA** devemos cancelar a requisição de pagamento.
+- Caso a devolutiva for **APROVADO** devemos seguir com o fluxo de [pagamento](005-pagamento-parte-I.md)
+
+- Caso a devolutiva **não** for **APROVADO** devemos retornar um erro específico:
+                                                                        
+    - Retornar **HTTP Status 422** quando o pagamento **não** for **APROVADO**
 
 ## Informações de suporte
 

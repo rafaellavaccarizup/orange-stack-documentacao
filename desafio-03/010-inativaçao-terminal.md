@@ -16,7 +16,9 @@ Realizar a inativação de um terminal no sistema.
 
 - Identificador do terminal é obrigatório na URL
 
-- Devemos seguir as boas práticas de integração utilizada
+**Lembre-se** 
+
+Devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 

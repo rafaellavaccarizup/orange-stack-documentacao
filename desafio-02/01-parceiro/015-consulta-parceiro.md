@@ -6,26 +6,25 @@ O(A) parceiro(a) e outros sistemas gostariam de consultar se o mesmo(a) existe e
     
 ## Restrições
 
-Devemos informar os seguintes dados do(a) parceiro(a):
+- Identificador do(a) parceiro(a) é obrigatório na URL
 
-- Nome do(a) Parceiro(a)
+**Lembre-se** 
 
-- CNPJ
-
-- Tipo de Canal
-    - NFC: Near-field communication    
-    - ECM: Ecommerce       
-    - MOB: Mobile
-    
-- Chave RSA pública
-
-**Lembre-se** devemos utilizar as boas práticas de integração utilizada.
+Devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 
-- Em caso de sucesso, devemos informar os dados do parceiro(a) solicitado.
+- Em caso de sucesso:
 
-- Em caso de erro, deve ser retornado o erro específicos.
+    - Deve ser retornado os dados do(a) parceiro(a)
+    
+    - Deve ser retornado o **HTTP Status 200**
+    
+- Em caso de erro, deve ser retornado o erro específico:
+
+    - Retornar **HTTP Status 404** quando não encontrado o(a) parceiro(a)
+    
+    - Retornar **HTTP Status 500** quando ocorrer um erro inesperado
 
 ## Informações de suporte
 

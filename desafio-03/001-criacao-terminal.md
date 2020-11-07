@@ -34,7 +34,9 @@ Realizar a criação de um terminal no sistema.
 
 - Caso sucesso o terminal deve estar com status "ativo"
 
-- Devemos seguir as boas práticas de integração utilizada
+**Lembre-se**
+
+Devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 

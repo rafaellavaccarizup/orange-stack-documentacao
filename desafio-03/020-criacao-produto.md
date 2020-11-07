@@ -28,7 +28,9 @@ O Produto tem as seguintes informações:
 
 - Modalidade (crédito/débito) deve ser obrigatória
 
-- Devemos seguir as boas práticas de integração utilizada
+**Lembre-se**
+
+Devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 

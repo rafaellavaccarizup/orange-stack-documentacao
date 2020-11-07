@@ -31,9 +31,22 @@ Devemos efetuar as seguintes validações:
 
 ## Resultado Esperado
 
-- Em caso de sucesso, o token deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+- Em caso de sucesso:
 
-- Em caso de erro, deve ser retornado o erro específicos.
+    - O token deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial
+    
+    - Retornar **HTTP Status 201** com Header Location preenchido com a URL do novo token
+    
+- Em caso de erro, deve ser retornado o erro específico:
+
+    - Retornar **HTTP Status 400** quando violado alguma das restrições
+    
+    - Retornar **HTTP Status 422** quando:
+    
+        - Parceiro(a) não existir ou não estar ativo no sistema
+        - Parceiro(a) não suportar o tipo de canal recebido
+    
+    - Retornar **HTTP Status 500** quando ocorrer um erro inesperado
 
 ## Informações de suporte
 

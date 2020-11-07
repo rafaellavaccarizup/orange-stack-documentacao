@@ -25,13 +25,27 @@ Devemos armazenar os seguintes dados:
 
 - A hora e data em UTC da operação
 
-**Lembre-se** devemos utilizar as boas práticas de integração utilizada.
+**Importante** 
+
+Devemos armazenar os dados do cartão utilizando uma chave RSA privada
+
+**Lembre-se** 
+
+Devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 
-- Em caso de sucesso, o token deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial.
+- Em caso de sucesso:
 
-- Em caso de erro, deve ser retornado o erro específicos.
+    - O token deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial
+    
+    - Retornar **HTTP Status 201** com Header Location preenchido com a URL do novo token
+    
+- Em caso de erro, deve ser retornado o erro específico:
+
+    - Retornar **HTTP Status 400** quando violado alguma das restrições
+    
+    - Retornar **HTTP Status 500** quando ocorrer um erro inesperado
 
 ## Informações de suporte
 

@@ -11,17 +11,18 @@ Temos uma API específica para consultar o status contratual do parceiro(a), vam
     
 ## Restrições
 
-- O documento do parceiro(a) deve ser fornecido.
+- O documento do(a) parceiro(a) deve ser fornecido.
 
 ## Resultado Esperado
 
-No processo de [crição de parceiro(a)](005-cricao-parceiro-parte-I.md) devemos considerar o status recebido da consulta de situação 
-contratual retornada pelo **issuer**.
+No processo de [crição de parceiro(a)](005-cricao-parceiro-parte-I.md) devemos considerar o status recebido da consulta 
+de situação contratual retornada pelo **issuer**.
 
-- Caso a devolutiva do estado for **ATIVO** o parceiro(a) deve ser armazenado(a) no sistema, com um identificador 
-gerado pelo sistema não sequencial.
+- Caso a devolutiva do estado do contrato for **ATIVO** devemos seguir com o fluxo de [crição de parceiro(a)](005-cricao-parceiro-parte-I.md)
 
-- Caso a devolutiva do estado **não** for **ATIVO** devemos cancelar a requisição de cadastramento de parceiro(a).
+- Caso a devolutiva do estado do contrato **não** for **ATIVO** devemos retornar um erro específico:
+                                                                        
+    - Retornar **HTTP Status 422** quando o contrato **não** for **ATIVO**
 
 ## Informações de suporte
 

@@ -32,7 +32,9 @@ A associação deve conter as seguintes informações:
 
 - Produto deve estar registrado e ativo no sistema
 
-- Devemos seguir as boas práticas de integração utilizada
+**Lembre-se**
+
+Devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 

@@ -29,13 +29,15 @@ Devemos retornar os seguintes dados:
 
 - Código de verificação (CVV) do cartão em texto aberto.
 
-**Lembre-se** devemos utilizar as boas práticas de integração utilizada.
+**Lembre-se** 
+
+Devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 
-- Em caso de sucesso, os dados do cartão devem ser retornados em texto aberto.
+- Em caso de sucesso, os dados do cartão devem ser retornados.
 
-- Em caso de erro, deve ser retornado o erro específicos.
+- Em caso de erro, deve ser retornado os erros específicos.
 
 ## Informações de suporte
 

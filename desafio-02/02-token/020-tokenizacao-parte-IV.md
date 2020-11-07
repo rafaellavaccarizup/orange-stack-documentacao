@@ -18,7 +18,7 @@ Devemos fornecer os seguintes dados:
 
 - A hora e data em UTC da geração do token
 
-- URL da [API de Lifecycle](020-token-lifecycle.md), caso seja identificado uma fraude será chamado essa API para 
+- URL da [API de Lifecycle](025-token-lifecycle.md), caso seja identificado uma fraude será chamado essa API para 
 bloquear o Token.
 
 ## Resultado Esperado

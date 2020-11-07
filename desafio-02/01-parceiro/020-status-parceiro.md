@@ -9,19 +9,29 @@ Caso o parceiro(a) resolva os seus problemas contratuais o banco pode reativar o
     
 ## Restrições
 
-- Devemos ativar ou desativar um determinado parceiro(a) no sistema.
+- Identificador do(a) parceiro(a) é obrigatório na URL
 
 - Na [criação do parceiro(a)](005-cricao-parceiro-parte-I.md) devemos criar como ativado(a).
 
 - Na [consulta de parceiro(a)](015-consulta-parceiro.md) devemos informar o status do(a) mesmo(a).
 
-**Lembre-se** devemos utilizar as boas práticas de integração utilizada.
+**Lembre-se** 
+
+Devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 
-- Em caso de sucesso, devemos alterar o status do parceiro(a).
+- Em caso de sucesso:
 
-- Em caso de erro, deve ser retornado o erro específicos.
+    - Deve ser alterado o status do(a) parceiro(a)
+    
+    - Deve ser retornado o **HTTP Status 200**
+    
+- Em caso de erro, deve ser retornado o erro específico:
+
+    - Retornar **HTTP Status 404** quando não encontrado o terminal
+    
+    - Retornar **HTTP Status 500** quando ocorrer um erro inesperado
 
 ## Informações de suporte
 

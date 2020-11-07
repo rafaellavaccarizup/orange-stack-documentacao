@@ -16,19 +16,24 @@ Devemos receber os seguintes dados do parceiro(a):
     - NFC: Near-field communication    
     - ECM: Ecommerce       
     - MOB: Mobile
-    
-- Chave RSA privada deve ser obrigatória.
 
-- Chave RSA pública deve ser obrigatória.
+**Lembre-se** 
 
-**Lembre-se** devemos utilizar as boas práticas de integração utilizada.
+Devemos utilizar as boas práticas de integração utilizada.
 
 ## Resultado Esperado
 
-- Em caso de sucesso, o(a) parceiro(a) deve ser armazenado(a) no sistema, com um identificador gerado pelo sistema 
-não sequencial.
+- Em caso de sucesso:
 
-- Em caso de erro, deve ser retornado o erro específicos.
+    - O(A) novo(a) parceiro(a) deve ser armazenado(a) no sistema, com um identificador gerado pelo sistema não sequencial
+    
+    - Retornar **HTTP Status 201** com Header Location preenchido com a URL do(a) novo(a) parceiro(a)
+    
+- Em caso de erro, deve ser retornado o erro específico:
+
+    - Retornar **HTTP Status 400** quando violado alguma das restrições
+    
+    - Retornar **HTTP Status 500** quando ocorrer um erro inesperado
 
 ## Informações de suporte
 
