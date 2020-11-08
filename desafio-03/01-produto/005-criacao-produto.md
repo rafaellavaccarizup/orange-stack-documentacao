@@ -38,6 +38,8 @@ Devemos utilizar as boas práticas de integração utilizada.
 
     - O novo produto deve ser armazenado no sistema, com um identificador gerado pelo sistema não sequencial
     
+    - O novo produto deve estar com status "ativo" no sistema
+    
     - Retornar **HTTP Status 201** com Header Location preenchido com a URL do novo produto
     
 - Em caso de erro, deve ser retornado o erro específico:
