@@ -40,13 +40,13 @@ Dessa forma, nosso **objetivo** é garantir que nossos usuários possam efetuar 
         03.4 - Setup do projeto: payment-rest
         03.5 - Expondo para o frontend: Gerando cobranças via Pix para QR Code
         03.6 - Expondo para o frontend: Pagando cobranças via Pix
-        03.7 - Buscando os dados das chaves Pix de Origem e Destino
+        (??) 03.7 - Buscando os dados das chaves Pix de Origem e Destino
     04 - Segurança
         04.1 - Autenticação e Autorização
         04.2 - Validando a chave Pix do usuário logado
     05 - Resiliência e Disponibilidade
         05.1 - O que acontece se o microservice Payment ficar fora do ar?
         05.2 - O que acontece se o microservice Key-Manager ficar fora do ar?
-        05.3 - Melhorando a resiliência do microservice Payment através de Cache Distribuído
+        05.3 - Melhorando a disponibilidade do microservice Payment através de Cache Distribuído
         05.4 - Definindo timeout para todas as chamadas remotas
         05.5 - Lidando com falhas parciais e transientes: habilitando Retry
