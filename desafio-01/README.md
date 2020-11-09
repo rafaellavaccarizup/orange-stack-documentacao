@@ -10,11 +10,9 @@ Dessa forma, nosso **objetivo** é garantir que nossos usuários possam efetuar 
 
 # Entendendo a Arquitetura do Projeto
 
-...
+![Arquitetura do projeto Pix](../recursos/diagramas/PIX.png "Arquitetura do projeto Pix")
 
-# Conhecendo as principais tecnologias utilizadas
-
-...
+# Outras informações 
 
 [Bacen Open-API: Pix](https://github.com/bacen/pix-dict-api/tree/master/openapi)
 
@@ -29,10 +27,9 @@ Dessa forma, nosso **objetivo** é garantir que nossos usuários possam efetuar 
         02.3 - Removendo uma chave Pix existente
         02.4 - Registrando e excluindo chaves Pix no Banco Central (BCB)
         02.5 - Consultando os dados de uma chave Pix
-        (??) 02.6 - Listando todas as chaves Pix do usuário
-        02.7 - Setup do projeto: key-manager-rest
-        02.8 - Expondo para o frontend: Registro da chave Pix
-        02.9 - Expondo para o frontend: Remoção de uma chave Pix existente
+        02.6 - Setup do projeto: key-manager-rest
+        02.7 - Expondo para o frontend: Registro da chave Pix
+        02.8 - Expondo para o frontend: Remoção de uma chave Pix existente
     03 - Modulo Payment (Cobrança)
         03.1 - Setup do projeto: payment-grpc
         03.2 - Gerando uma cobrança via Pix para QR Code
@@ -40,7 +37,6 @@ Dessa forma, nosso **objetivo** é garantir que nossos usuários possam efetuar 
         03.4 - Setup do projeto: payment-rest
         03.5 - Expondo para o frontend: Gerando cobranças via Pix para QR Code
         03.6 - Expondo para o frontend: Pagando cobranças via Pix
-        (??) 03.7 - Buscando os dados das chaves Pix de Origem e Destino
     04 - Segurança
         04.1 - Autenticação e Autorização
         04.2 - Validando a chave Pix do usuário logado
