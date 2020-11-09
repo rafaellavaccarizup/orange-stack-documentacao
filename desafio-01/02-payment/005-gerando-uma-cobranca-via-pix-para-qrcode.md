@@ -38,7 +38,7 @@ Para gerar uma cobrança via Pix, precisamos que o usuário informe os seguintes
 
 - **Valor da cobrança** possui precisão de 2 casas decimais e:
   - Quando tipo da cobrança for dinâmico, o valor será obrigatório;
-  - Quando tipo da cobrança for estático, o valor é opcional (o usuário poderá informar no momento do pagamento);
+  - Quando tipo da cobrança for estático, o valor será opcional (o usuário poderá informar no momento do pagamento);
   
 - **Descrição da cobrança** é opcional e deve contar máximo de 100 caracteres;
 

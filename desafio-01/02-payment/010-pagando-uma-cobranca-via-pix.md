@@ -4,7 +4,7 @@
 
 Agora, precisamos efetuar o pagamento de cobranças via Pix que foram compartilhadas através de QR Code. Nosso sistema não será responsável por ler o QR Code, mas somente lidar com os metadados extraídos da imagem.
 
-Um detalhe importante, até este momento a especificação da API de cobranças do Pix que será utilizada pelos bancos ainda não foi concluída pelo Banco Central (BCB), portanto, nesta primeira fase de lançamento do Pix, suportaremos apenas cobranças QR Code geradas pela nossa própria plataforma. Ou seja, os QR Codes que **seguem o formato (schema) esperado dos metadados** definido por nós. Em um futuro não distante, aceitaremos outros QR Codes com formatos diferentes gerados por outras instituições financeiras e fintechs.
+Um detalhe importante, até este momento a especificação da API de cobranças do Pix que será utilizada e trará interoperalidade entre instituições financeiras, bancos e fintechs ainda não foi concluída pelo Banco Central (BCB), portanto, nesta primeira fase de lançamento do Pix, suportaremos apenas cobranças QR Code geradas pela nossa própria plataforma. Ou seja, os QR Codes que **seguem o formato (schema) dos metadados** definido por nós. Em um futuro não distante, aceitaremos outros QR Codes com formatos diferentes gerados por outras instituições financeiras e fintechs.
    
 ## Restrições
 
@@ -13,7 +13,7 @@ Para efetuar o pagamento de uma cobrança via Pix, precisamos dos seguintes dado
 - **ID da cobrança** é obrigatório;
 - **Chave Pix do pagador (origem)** é obrigatória;
 - **Chave Pix do recebedor (destino)** é obrigatória;
-- **Tipo de cobrança** é obrigatório e pode assumir os valores: dinâmico e estático;
+- **Tipo de cobrança** é obrigatório e pode assumir os valores: dinâmico ou estático;
 - **Valor da cobrança** é obrigatório;
 
 Para o caso de cobrança dinâmica, o sistema deve:
