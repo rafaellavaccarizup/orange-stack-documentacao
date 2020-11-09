@@ -35,11 +35,11 @@ Dessa forma, nosso **objetivo** é garantir que nossos usuários possam efetuar 
         02.9 - Expondo para o frontend: Remoção de uma chave Pix existente
     03 - Modulo Payment (Cobrança)
         03.1 - Setup do projeto: payment-grpc
-        03.2 - Gerando uma cobrança via Pix para QRCode
+        03.2 - Gerando uma cobrança via Pix para QR Code
         03.3 - Pagando uma cobrança via Pix
         03.4 - Setup do projeto: payment-rest
-        03.5 - Expondo para o frontend: Gerando uma nova cobrança via Pix
-        03.6 - Expondo para o frontend: Pagando uma cobrança via Pix
+        03.5 - Expondo para o frontend: Gerando cobranças via Pix para QR Code
+        03.6 - Expondo para o frontend: Pagando cobranças via Pix
         03.7 - Buscando os dados das chaves Pix de Origem e Destino
     04 - Segurança
         04.1 - Autenticação e Autorização
