@@ -10,6 +10,8 @@ Para gerar uma cobrança via Pix, precisamos que o usuário informe os dados nec
 
 Lembre-se de seguir as boas práticas de design de APIs REST, pois o time de mobile leva isso em consideração.
 
+Por questões de segurança, o CPF do recebedor deve ser **obfuscado** antes de embuti-lo na imagem do QR Code. Portanto, nossa API REST deve obfuscá-lo e retorná-lo no seguinte formato `999.xxx.xxx-99`.
+
 ## Resultado Esperado
 
 - Em caso de sucesso, a cobrança via Pix deve ser gerada, armazenada no sistema e por fim retornar os dadosnecessários que serão utilizados para gerar o QR Code no dispositivo mobile;
