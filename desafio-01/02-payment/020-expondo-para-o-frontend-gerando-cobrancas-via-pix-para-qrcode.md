@@ -14,7 +14,7 @@ Por questões de segurança, o CPF do recebedor deve ser **obfuscado** antes de 
 
 ## Resultado Esperado
 
-- Em caso de sucesso, a cobrança via Pix deve ser gerada, armazenada no sistema e por fim retornar os dadosnecessários que serão utilizados para gerar o QR Code no dispositivo mobile;
+- Em caso de sucesso, a cobrança via Pix deve ser gerada, armazenada no sistema e por fim retornar os dados necessários que serão utilizados para gerar o QR Code no dispositivo mobile;
 
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
