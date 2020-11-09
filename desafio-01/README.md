@@ -6,15 +6,15 @@ Com o Pix, pagamentos e transferências são **concluídos em alguns segundos** 
 
 Vale dizer que para enviar ou receber um Pix, não é necessário fazer nenhum cadastro ou baixar um aplicativo – ele pode ser usado diretamente no aplicativo de sua instituição; é necessário somente que ela ofereça esse meio de pagamento. 
 
-Dessa forma, nosso **objetivo** é garantir que nossos usuários possam efetuar pagamentos e transferências via Pix na nossa plataforma. Mais ainda, nossos usuários poderão registrar suas chaves Pix em nossa plataforma usando suas informações pessoais: CPF, telefone celular, email ou uma chave aleatória. Com uma chave registrada, será possível receber e pagar via Pix.
+Dessa forma, nosso **objetivo** é garantir que nossos usuários possam:
+1. efetuar pagamentos e transferências via Pix na nossa plataforma;
+2. registrar suas chaves Pix em nossa plataforma usando suas informações pessoais: CPF, telefone celular, email ou uma chave aleatória. Com uma chave registrada, será possível receber e pagar via Pix;
 
 # Entendendo a Arquitetura do Projeto
 
+Por o Pix se tratar de produto novo no mercado, decidimos criar uma **fachada (façade)** com o intuito aproveitar e estender os recursos existentes na nossa atual plataforma e assim diminuir o impacto das mudanças na mesma. Portanto, para esse projeto, nossa arquitetura será baseada em microservices para trazer maior flexibilidade e produtividade durante o desenvolvimento. Não só isso, com essa distribuição dos módulos nós poderemos escalá-los de forma independente e isolada.
+
 ![Arquitetura do projeto Pix](../recursos/diagramas/PIX.png "Arquitetura do projeto Pix")
-
-# Outras informações 
-
-[Bacen Open-API: Pix](https://github.com/bacen/pix-dict-api/tree/master/openapi)
 
 # Indice
 
@@ -46,3 +46,7 @@ Dessa forma, nosso **objetivo** é garantir que nossos usuários possam efetuar 
     - [05.3 - Melhorando a disponibilidade do microservice Payment através de Cache Distribuído](04-resiliencia-e-disponibilidade/010-melhorando-a-disponibilidade-do-microservice-payment-atraves-de-cache-distribuido.md)
     - [05.4 - Definindo timeout para todas as chamadas remotas](04-resiliencia-e-disponibilidade/015-definindo-timeout-para-todas-as-chamadas-remotas.md)
     - [05.5 - Lidando com falhas parciais e transientes: habilitando Retry](04-resiliencia-e-disponibilidade/020-lidando-com-falhas-parciais-e-transientes-habilitando-retry.md)
+
+# Outras informações 
+
+[Bacen OpenAPI: Pix](https://github.com/bacen/pix-dict-api/tree/master/openapi)
