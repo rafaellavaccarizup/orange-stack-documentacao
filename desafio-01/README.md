@@ -49,4 +49,5 @@ Por o Pix se tratar de produto novo no mercado, decidimos criar uma **fachada (f
 
 # Outras informações 
 
-[Bacen OpenAPI: Pix](https://github.com/bacen/pix-dict-api/tree/master/openapi)
+- [Bacen OpenAPI 3.0: Especificação da API Pix](https://github.com/bacen/pix-dict-api/tree/master/openapi)
+- [Bacen OpenAPI: Especificação da API DICT - Diretório de Identificadores de Contas Transacionais do PIX](https://github.com/bacen/pix-dict-api)
