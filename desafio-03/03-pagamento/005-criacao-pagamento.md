@@ -23,7 +23,7 @@ A Requisição de transações deve conter as seguintes informações:
 
 - Valor da Transação
 
-- Data e hora da transação no Terminal no formato UTC
+- Data e hora da transação no Terminal no formato ISO 8601 (yyyy-MM-dd'T'HH:mm:ssZ)
 
 ## Restrições
 

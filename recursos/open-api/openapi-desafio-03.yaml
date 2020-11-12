@@ -1,0 +1,68 @@
+openapi: 3.0.1
+info:
+  title: API Pagamentos
+  description: API para solicitação de pagamentos
+  license:
+    name: Apache 2.0
+  version: v1.0.0
+tags:
+  - name: Pagamentos
+    description: API para realização de transações digitais
+paths:
+  /api/pagamentos:
+    post:
+      tags:
+        - Pagamentos
+      description: Operação para solicitação de criação de um pagamento
+      operationId: criacao
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NovoPagamentoRequest'
+        required: true
+      responses:
+        '201':
+          description: Created
+          headers:
+            Location:
+              description: Localização do recurso criado, exemplo /api/pagamentos/8c47e100-686d-4907-aea7-e4348e312a32
+              schema:
+                type: string
+        '400':
+          description: Bad Request
+        '422':
+          description: Unprocessable Entity
+components:
+  schemas:
+    NovoPagamentoRequest:
+      title: NovoPagamento
+      required:
+        - token
+        - terminalId
+        - produtoId
+        - valor
+        - dataTransacao  
+      type: object
+      properties:
+        token:
+          type: string
+          format: uuid
+          description: Token previamente criado que representa o cartão
+        terminalId:
+          type: string
+          format: uuid
+          description: Identificador do terminal
+        produtoId:
+          type: string
+          format: uuid
+          description: Identificador do produto
+        valor:
+          type: number
+          format: double
+          minimum: 0.01
+          description: Valor da transação
+        data:
+          type: string
+          format: date-time
+          description: Data e hora do terminal que foi realizada a transação no formato ISO 8601 (yyyy-MM-dd'T'HH:mm:ss)

@@ -1,0 +1,1 @@
+# Pasta destinada a armazenar os open-apis utilizados nos projetos
