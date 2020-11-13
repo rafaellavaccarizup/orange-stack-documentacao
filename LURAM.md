@@ -112,3 +112,31 @@ fun post(@Valid request: CreateTerminalRequest) {
 #### [Bean Validation - Custom Constraint](https://docs.micronaut.io/1.2.6/guide/index.html#_defining_additional_constraints)
 
 #### [Exception Handler](https://docs.micronaut.io/latest/guide/index.html#errorHandling)
+
+#### [gRPC](https://micronaut-projects.github.io/micronaut-grpc/snapshot/guide/index.html)
+
+#### [OpenTracing](https://docs.micronaut.io/latest/guide/index.html#distributedTracing)
+
+Precisamos adicionar as seguintes dependências
+
+```
+implementation("io.micronaut:micronaut-tracing")
+runtime("io.opentracing.contrib:opentracing-grpc:0.2.3")
+compile("io.jaegertracing:jaeger-thrift:0.31.0")
+```
+
+Precisamos adicionar as seguintes properties:
+
+```yaml
+tracing:
+  jaeger:
+    enabled: ${JAEGER_ENABLED:true}
+    sampler:
+      probability: ${JAEGER_SAMPLE:1}
+    sender:
+      agentHost: ${JAEGER_HOST:localhost}
+      agentPort: ${JAEGER_PORT:5775}
+    reporter:
+      flushInterval: 2000
+      maxQueueSize: 200
+```
