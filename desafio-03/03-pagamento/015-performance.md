@@ -8,7 +8,7 @@ performance para garantir que o mesmo irá suportar a carga esperada!
 ## Necessidades
 
 Realizar teste de carga utilizando o [Locust](https://locust.io/) e atingir a marca de 100 requisições por segunda (RPS) 
-em apenas uma **única instância**
+em apenas uma **única instância** do serviço de **pagamento**.
 
 ## Restrições
 
