@@ -9,7 +9,7 @@ tags:
   - name: Pagamentos
     description: API para realização de transações digitais
 paths:
-  /api/pagamentos:
+  /v1/pagamentos:
     post:
       tags:
         - Pagamentos
@@ -42,7 +42,7 @@ components:
         - terminalId
         - produtoId
         - valor
-        - dataTransacao  
+        - dataTransacao
       type: object
       properties:
         token:

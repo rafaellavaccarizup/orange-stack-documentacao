@@ -45,7 +45,7 @@ A Requisição de transações deve conter as seguintes informações:
 
 Devemos utilizar as boas práticas de integração utilizada.
 
-# Importante! Nossa API REST precisa seguir o seguinte **[contrato](../../recursos/open-api/openapi-desafio-03.yaml)**
+## Importante! Nossa API REST precisa seguir o seguinte **[contrato](../../recursos/open-api/openapi-desafio-03.yaml)**
 
 ## Resultado Esperado
 
