@@ -1,0 +1,1 @@
+# Pasta destinada a armazenar os protobufs utilizados nos projetos
