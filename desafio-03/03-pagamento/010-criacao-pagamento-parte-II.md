@@ -15,7 +15,7 @@ No processo de [criação de pagamento](005-criacao-pagamento-parte-I.md) devemo
 
 - Caso a devolutiva do status for **APPROVED** devemos seguir com o fluxo de [criação de pagamento](005-criacao-pagamento-parte-I.md)
 
-- Caso a devolutiva do status **não** for **APPROVED** devemos retornar um erro **HTTP Status 422** específico:
+- Caso a devolutiva do status **não** for **APPROVED** devemos retornar um erro **HTTP Status 422** específico
 
 ## Informações de suporte
 
