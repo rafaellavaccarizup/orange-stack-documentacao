@@ -113,9 +113,9 @@ fun post(@Valid request: CreateTerminalRequest) {
 
 #### [Exception Handler](https://docs.micronaut.io/latest/guide/index.html#errorHandling)
 
-#### [gRPC](https://micronaut-projects.github.io/micronaut-grpc/snapshot/guide/index.html)
+#### [gRPC - Micronaut](https://micronaut-projects.github.io/micronaut-grpc/snapshot/guide/index.html)
 
-#### [OpenTracing](https://docs.micronaut.io/latest/guide/index.html#distributedTracing)
+#### [gRPC - OpenTracing](https://docs.micronaut.io/latest/guide/index.html#distributedTracing)
 
 Precisamos adicionar as seguintes dependências
 
@@ -139,4 +139,30 @@ tracing:
     reporter:
       flushInterval: 2000
       maxQueueSize: 200
+```
+
+#### [PostgreSQL - Micronaut](https://docs.micronaut.io/latest/guide/index.html#dataAccess)
+
+**build.gradle**
+
+```groovy
+// JPA \ Hibernate
+annotationProcessor("io.micronaut.data:micronaut-data-processor")
+runtime("io.micronaut.sql:micronaut-jdbc-hikari")
+implementation("io.micronaut.data:micronaut-data-jdbc")
+compileOnly("jakarta.persistence:jakarta.persistence-api:2.2.2")
+// PostgreSQL
+runtime("org.postgresql:postgresql")
+```
+
+**application.yml**
+
+```yaml
+# PostgreSQL
+datasources:
+  default:
+    url: ${JDBC_URL:`jdbc:postgresql://localhost:5432/partner`}
+    username: ${JDBC_USER:postgres}
+    password: ${JDBC_PASSWORD:postgres}
+    driverClassName: ${JDBC_DRIVER:org.postgresql.Driver}
 ```
