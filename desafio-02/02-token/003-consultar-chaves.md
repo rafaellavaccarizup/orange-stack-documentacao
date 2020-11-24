@@ -23,7 +23,7 @@ Devemos utilizar as boas práticas de integração utilizada.
 
 - Em caso de sucesso:
 
-    - A chave pública deve ser retornada no **body**
+    - A chave pública deve ser retornada no **body** no formato **Base64**
     
     - Retornar **HTTP Status 200**
     
