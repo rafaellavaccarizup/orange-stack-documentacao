@@ -7,7 +7,7 @@ verificar se o seu contrato encontra-se **ativo**.
 
 Temos uma API específica para consultar o status contratual do parceiro(a), vamos analisá-la?
 
-**[SWAGGER OU PROTOBUF - FIXME LURAM]()**
+**[gRPC - Protobuf](../../recursos/protobuf/issuer-desafio-02.proto)**
     
 ## Restrições
 

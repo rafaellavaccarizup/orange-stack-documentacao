@@ -7,7 +7,7 @@ não o pagamento em si.
 
 Temos uma API específica para autorizar o pagamento ou não, vamos analisá-la?
 
-**[gRPC - Protobuf](../../recursos/protobuf/acquirer.proto)**
+**[gRPC - Protobuf](../../recursos/protobuf/acquirer-desafio-3.proto)**
     
 ## Resultado Esperado
 

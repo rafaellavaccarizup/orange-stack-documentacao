@@ -7,7 +7,7 @@ verificar se o cartão é válido no **issuer**.
 
 Temos uma API específica para verificar se o cartão é válido, vamos analisá-la?
 
-**[SWAGGER OU PROTOBUF - FIXME LURAM]()**
+**[gRPC - Protobuf](../../recursos/protobuf/issuer-desafio-02.proto)**
    
 ## Restrições
 
