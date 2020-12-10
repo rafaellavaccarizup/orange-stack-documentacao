@@ -41,9 +41,11 @@ Devemos efetuar as seguintes validações:
 
     - Retornar **HTTP Status 400** quando violado alguma das restrições
     
+    - Retornar **HTTP Status 404** quando o parceiro não existir.
+    
     - Retornar **HTTP Status 422** quando:
     
-        - Parceiro(a) não existir ou não estar ativo no sistema
+        - Parceiro(a) não estar ativo no sistema
         - Parceiro(a) não suportar o tipo de canal recebido
     
     - Retornar **HTTP Status 500** quando ocorrer um erro inesperado
