@@ -8,7 +8,8 @@ Nosso usuário precisa registrar (cadastrar) uma nova chave Pix para que ele pos
 
 Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dados:
 
-- **Identificador do cliente** deve ser obrigatório (código interno do cliente na Instituição Financeira);
+- **Identificador do cliente** deve ser obrigatório:
+   - Código interno do cliente na Instituição Financeira existente no [Sistema ERP do Itaú](http://localhost:9091/api/v1/private/contas/todas);
 
 - **Tipo da chave** deve ser obrigatório, e pode ser:
     - CPF;
@@ -33,5 +34,7 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
 ## Informações de suporte
+
+- Os dados do cliente e de sua conta corrente **devem ser obtidos do [Sistema ERP do Itaú](http://localhost:9091/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/)**; 
 
 ## Sugestões de busca de conteúdo
