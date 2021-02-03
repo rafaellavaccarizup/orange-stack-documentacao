@@ -37,5 +37,9 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
 ## Informações de suporte
+1. Tem dúvidas sobre como criar um protobuf? [Temos um vídeo explicativo aqui](http://zup.com.br)
+2. Tem dúvidas sobre como salver um dado no Micronaut? [Temos um vídeo explicativo aqui](http://zup.com.br)
+3. Tem dúvidas sobre como criar um cliente HTTP de forma declarativa com Micronaut? [Temos um vídeo explicativo aqui](http://zup.com.br)
+4. Quer saber como ler informações do `application.yaml`? [Temos um vídeo explicativo aqui](http://zup.com.br)
 
 ## Sugestões de busca de conteúdo
