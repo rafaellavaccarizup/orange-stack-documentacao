@@ -8,6 +8,8 @@ Nosso usuário precisa registrar (cadastrar) uma nova chave Pix para que ele pos
 
 Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dados:
 
+- **Identificador do cliente** deve ser obrigatório (código interno do cliente na Instituição Financeira);
+
 - **Tipo da chave** deve ser obrigatório, e pode ser:
     - CPF;
     - telefone celular;
@@ -15,20 +17,14 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
     - chave aleatória;
 
 - **Valor da chave** deve ser obrigatório, válido e único:
-    - Quando tipo for CPF, usar formato `999.999.999-99`;
-    - Quando tipo for telefone celular, usar formato `(99) 99999-999`;
-    - Quando tipo for email, deve ser um endereço válido;
-    - Quando tipo for chave aleatória, deve-se informar um apelido (alias) para a chave, pois a chave em si será gerada pelo sistema;
+    - Quando tipo for CPF, usar formato `^[0-9]{11}$` (por exemplo: `12345678901`);
+    - Quando tipo for telefone celular, usar formato `^\+[1-9][0-9]\d{1,14}$` (por exemplo: `+5585988714077`);
+    - Quando tipo for email, deve ser um endereço válido com tamanho máximo de 77 caracteres;
+    - Quando tipo for chave aleatória, deve-se informar um valor seguindo o [formato UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier);
 
 - **Tipo de conta** associada a chave Pix deve ser obrigatória, e pode ser:
     - Conta Corrente;
     - Conta Poupança;
-
-- **Instituição financeira** deve ser obrigatória e possuir o valor `ITAU UNIBANCO`;
-- **Nome completo do titular da conta** deve ser obrigatório;
-- **CPF do titular da conta** deve ser obrigatório e válido;
-- **Agência** deve ser obrigatória e possuir exatamente 4 dígitos;
-- **Número da conta** deve ser obrigatório e possuir exatamente 6 dígitos;
 
 ## Resultado Esperado
 
@@ -37,9 +33,5 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
 ## Informações de suporte
-1. Tem dúvidas sobre como criar um protobuf? [Temos um vídeo explicativo aqui](http://zup.com.br)
-2. Tem dúvidas sobre como salver um dado no Micronaut? [Temos um vídeo explicativo aqui](http://zup.com.br)
-3. Tem dúvidas sobre como criar um cliente HTTP de forma declarativa com Micronaut? [Temos um vídeo explicativo aqui](http://zup.com.br)
-4. Quer saber como ler informações do `application.yaml`? [Temos um vídeo explicativo aqui](http://zup.com.br)
 
 ## Sugestões de busca de conteúdo
