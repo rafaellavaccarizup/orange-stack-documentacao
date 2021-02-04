@@ -17,11 +17,11 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
     - email;
     - chave aleatória;
 
-- **Valor da chave** deve ser obrigatório, válido e único:
-    - Quando tipo for CPF, usar formato `^[0-9]{11}$` (por exemplo: `12345678901`);
-    - Quando tipo for telefone celular, usar formato `^\+[1-9][0-9]\d{1,14}$` (por exemplo: `+5585988714077`);
-    - Quando tipo for email, deve ser um endereço válido com tamanho máximo de 77 caracteres;
-    - Quando tipo for chave aleatória, deve-se informar um valor seguindo o [formato UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier);
+- **Valor da chave** deve ser válido e único com tamanho máximo de 77 caracteres:
+    - Quando tipo for CPF, deve ser obrigatório e usar formato `^[0-9]{11}$` (por exemplo: `12345678901`);
+    - Quando tipo for telefone celular, deve ser obrigatório e usar formato `^\+[1-9][0-9]\d{1,14}$` (por exemplo: `+5585988714077`);
+    - Quando tipo for email, deve ser obrigatório e um endereço válido;
+    - Quando tipo for chave aleatória, o valor da chave **não** deve ser preenchido (não se preocupe, veremos como gerar essa chave um pouco mais à frente);
 
 - **Tipo de conta** associada a chave Pix deve ser obrigatória, e pode ser:
     - Conta Corrente;
@@ -29,9 +29,11 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 
 ## Resultado Esperado
 
-- Em caso de sucesso, a chave Pix deve ser registrada e armazenada no sistema;
+- Em caso de sucesso:
+   - a chave Pix deve ser registrada e armazenada no sistema;
+   - deve-se retornar um ID interno ("pix ID") para representar a chave Pix criada pelo sistema;
 
-- Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
+- Em caso de erro, deve-se retornar o erro específico;
 
 ## Informações de suporte
 
