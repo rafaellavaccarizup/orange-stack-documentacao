@@ -21,7 +21,7 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
     - Quando tipo for CPF, deve ser obrigatório e usar formato `^[0-9]{11}$` (por exemplo: `12345678901`);
     - Quando tipo for telefone celular, deve ser obrigatório e usar formato `^\+[1-9][0-9]\d{1,14}$` (por exemplo: `+5585988714077`);
     - Quando tipo for email, deve ser obrigatório e um endereço válido;
-    - Quando tipo for chave aleatória, o valor da chave **não** deve ser preenchido (não se preocupe, veremos como gerar essa chave um pouco mais à frente);
+    - Quando tipo for chave aleatória, o valor da chave **não** deve ser preenchido pois o mesmo deve ser gerado pelo sistema no [formato UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier);
 
 - **Tipo de conta** associada a chave Pix deve ser obrigatória, e pode ser:
     - Conta Corrente;
