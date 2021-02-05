@@ -31,7 +31,7 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 
 - Em caso de sucesso:
    - a chave Pix deve ser registrada e armazenada no sistema;
-   - deve-se retornar um ID interno ("pix ID") para representar a chave Pix criada pelo sistema;
+   - deve-se retornar um ID interno ("Pix ID") para representar a chave Pix criada pelo sistema;
 
 - Em caso de erro, deve-se retornar o erro específico;
 
