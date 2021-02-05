@@ -12,6 +12,8 @@ Para excluir uma chave Pix, precisamos que o usuário informe os seguintes dados
 
 - **Identificador do cliente** deve ser obrigatório:
    - Código interno do cliente na Instituição Financeira existente no [Sistema ERP do Itaú](http://localhost:9091/api/v1/private/contas/todas);
+   
+- A chave somente pode ser removida pelo seu dono (cliente).
 
 ## Resultado Esperado
 
