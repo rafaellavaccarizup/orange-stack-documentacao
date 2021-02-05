@@ -8,7 +8,10 @@ Nosso usuário precisa excluir suas chaves Pix cadastradas, pois dessa forma, se
 
 Para excluir uma chave Pix, precisamos que o usuário informe os seguintes dados:
 
-- **Chave Pix** deve ser obrigatório;
+- **Pix ID** (idenficiador interno da chave Pix) deve ser obrigatório;
+
+- **Identificador do cliente** deve ser obrigatório:
+   - Código interno do cliente na Instituição Financeira existente no [Sistema ERP do Itaú](http://localhost:9091/api/v1/private/contas/todas);
 
 ## Resultado Esperado
 
@@ -17,5 +20,7 @@ Para excluir uma chave Pix, precisamos que o usuário informe os seguintes dados
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
 ## Informações de suporte
+
+- Os dados do cliente e de sua conta corrente **devem ser obtidos do [Sistema ERP do Itaú](http://localhost:9091/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/)**; 
 
 ## Sugestões de busca de conteúdo
