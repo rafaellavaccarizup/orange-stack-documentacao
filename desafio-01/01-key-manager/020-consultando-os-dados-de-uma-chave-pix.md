@@ -6,9 +6,9 @@ Precisamos disponibilizar um meio de consultar os dados de uma determinada chave
    
 ## Restrições
 
-Para consultar uma chave Pix, precisamos que os seguintes dados sejam informados:
+Para consultar uma chave Pix, precisamos que um dos seguintes dados seja informado:
 
-- **Chave Pix** deve ser obrigatório;
+- **Pix ID** (idenficador interno da chave Pix) ou **Chave Pix**;
 
 Caso a chave Pix não esteja devidamente [registrada no BCB](015-registrando-e-excluindo-chaves-pix-no-bcb.md), a mesma não poderá ter suas informações disponibilizadas abertamente, afinal trata-se de uma chave ainda inválida.
 
@@ -17,12 +17,14 @@ No caso de nosso sistema **não possuir** a chave Pix informada, a mesma deve se
 ## Resultado Esperado
 
 - Em caso de sucesso, deve-se retornar os dados da chave Pix:
+  - Pix ID;
   - Tipo da chave;
   - Valor da chave;
-  - Nome completo do titular da conta;
-  - CPF do titular da conta (formato `999.999.999-99`);
-  - Instituição financeira (nome do banco, da fintech etc);
-  - Dados da conta: agência, número da conta e tipo da conta (corrente ou poupança);
+  - Nome e CPF do titular da conta;
+  - Dados da conta vinculada a chave Pix:
+    - nome da Instituição financeira;
+    - agência, número da conta e tipo da conta (Corrente ou Poupança);
+  - Data de registro ou criação da chave;
 
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
