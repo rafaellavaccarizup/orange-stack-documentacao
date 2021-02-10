@@ -20,8 +20,8 @@ No caso de nosso sistema **não possuir** a chave Pix informada, a mesma deve se
 ## Resultado Esperado
 
 - Em caso de sucesso, deve-se retornar os dados da chave Pix:
-  - Pix ID;
-  - Identificador do cliente;
+  - Pix ID (opcional);
+  - Identificador do cliente (opcional);
   - Tipo da chave;
   - Valor da chave;
   - Nome e CPF do titular da conta;
