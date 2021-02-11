@@ -6,22 +6,24 @@ Precisamos disponibilizar um meio de consultar os dados de uma determinada chave
    
 ## Restrições
 
-Para consultar uma chave Pix, precisamos que os seguintes dados sejam informados:
+Poderemos consultar uma chave Pix de duas maneiras diferentes. Portanto, devemos suportar as seguintes abordagens:
 
-- **Identificador do cliente** deve ser obrigatório:
-   - Código interno do cliente na Instituição Financeira existente no [Sistema ERP do Itaú](http://localhost:9091/api/v1/private/contas/todas);
+1. Para o nosso sistema KeyManager:
+    - **Identificador do cliente** e **Pix ID** devem ser obrigatórios;
+    - a chave Pix encontrada deve ser de propriedade do cliente;
+    - caso a chave Pix não esteja devidamente [registrada no BCB](015-registrando-e-excluindo-chaves-pix-no-bcb.md), a mesma não poderá ter suas informações disponibilizadas abertamente, afinal trata-se de uma chave ainda inválida.
    
-- **Pix ID** ou **Chave Pix** deve ser obrigatória;
+2. Para outros microsserviços e sistemas:
+    - **Chave Pix** deve ser obrigatória e possuir tamanho máximo de 77 caracteres;
+    - no caso de nosso sistema **não possuir** a chave Pix informada, a mesma deve ser consultada no [sistema Pix do BCB](015-registrando-e-excluindo-chaves-pix-no-bcb.md).
 
-Caso a chave Pix não esteja devidamente [registrada no BCB](015-registrando-e-excluindo-chaves-pix-no-bcb.md), a mesma não poderá ter suas informações disponibilizadas abertamente, afinal trata-se de uma chave ainda inválida.
-
-No caso de nosso sistema **não possuir** a chave Pix informada, a mesma deve ser consultada no [sistema Pix do BCB](015-registrando-e-excluindo-chaves-pix-no-bcb.md).
+A idéia é que nosso sistema KeyManager consiga consultar chaves por Pix ID para seus usuários enquanto outros sistemas e serviços possam consultar os dados de qualquer chave pela própria chave Pix para validação de dados ou mesmo para exibir informações.
 
 ## Resultado Esperado
 
 - Em caso de sucesso, deve-se retornar os dados da chave Pix:
-  - Pix ID (opcional);
-  - Identificador do cliente (opcional);
+  - Pix ID (opcional - necessário somente para abordagem 1);
+  - Identificador do cliente (opcional - necessário somente para abordagem 1);
   - Tipo da chave;
   - Valor da chave;
   - Nome e CPF do titular da conta;
