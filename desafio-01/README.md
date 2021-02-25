@@ -31,6 +31,8 @@ Por o Pix se tratar de produto novo no mercado, decidimos criar uma **fachada (f
     - [02.7 - Setup do projeto: key-manager-rest](01-key-manager/025-setup-do-projeto-key-manager-rest.md)
     - [02.8 - Expondo para o frontend: Registro da chave Pix](01-key-manager/030-expondo-para-o-frontend-registro-da-chave-pix.md)
     - [02.9 - Expondo para o frontend: Remoção de uma chave Pix existente](01-key-manager/035-expondo-para-o-frontend-remocao-de-uma-chave-pix-existente.md)
+    - [02.10 - Expondo para o frontend: Detalhamento de uma chave Pix](01-key-manager/040-expondo-para-o-frontend-detalhamento-de-uma-chave-pix.md)
+    - [02.11 - Expondo para o frontend: Listagem de todas as chaves Pix](01-key-manager/045-expondo-para-o-frontend-listagem-de-chaves-pix.md)
 - [03 - Modulo Payment (Cobrança)](02-payment)
     - [03.1 - Setup do projeto: payment-grpc](02-payment/001-setup-do-projeto-payment-grpc.md)
     - [03.2 - Gerando uma cobrança via Pix para QR Code](02-payment/005-gerando-uma-cobranca-via-pix-para-qrcode.md)
