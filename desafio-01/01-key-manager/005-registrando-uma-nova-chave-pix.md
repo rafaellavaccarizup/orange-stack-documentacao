@@ -50,4 +50,4 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 
 ## Sugestões de busca de conteúdo
 
-- Quer entender um pouco mais sobre os possíveis status numa API gRPC? [Aqui você pode conhecer cada um deles e entender quando utilizá-los](https://meet.google.com/tez-wwii-eax?pli=1&authuser=1)
+- Quer entender um pouco mais sobre os possíveis status numa API gRPC? [Aqui você pode conhecer cada um deles e entender quando utilizá-los](https://developers.google.com/maps-booking/reference/grpc-api/status_codes)
