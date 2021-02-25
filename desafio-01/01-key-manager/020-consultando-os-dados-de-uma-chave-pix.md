@@ -32,6 +32,8 @@ A idéia é que nosso sistema KeyManager consiga consultar chaves por Pix ID par
     - agência, número da conta e tipo da conta (Corrente ou Poupança);
   - Data/hora de registro ou criação da chave;
 
+- Em caso de chave não encontrada, deve-se retornar status de erro `NOT_FOUND` com uma mensagem amigável para o usuário final;
+
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
 ## Informações de suporte

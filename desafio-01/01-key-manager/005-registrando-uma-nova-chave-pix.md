@@ -33,7 +33,9 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
    - a chave Pix deve ser registrada e armazenada no sistema;
    - deve-se retornar um ID interno ("Pix ID") para representar a chave Pix criada pelo sistema;
 
-- Em caso de erro, deve-se retornar o erro específico;
+- Em caso de chave já existente, deve-se retornar status de erro `ALREADY_EXISTS` com uma mensagem amigável para o usuário final;
+
+- Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
 ## Informações de suporte
 
@@ -47,3 +49,5 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 - Para cada tipo de chave fazemos uma validação diferente. Quer saber como criar uma validação customizada com Micronaut? [Aqui tem um vídeo que pode te ajudar]()
 
 ## Sugestões de busca de conteúdo
+
+- Quer entender um pouco mais sobre os possíveis status numa API gRPC? [Aqui você pode conhecer cada um deles e entender quando utilizá-los](https://meet.google.com/tez-wwii-eax?pli=1&authuser=1)
