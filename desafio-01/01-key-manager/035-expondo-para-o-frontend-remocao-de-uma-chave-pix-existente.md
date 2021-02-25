@@ -14,6 +14,8 @@ Lembre-se de seguir as boas práticas de design de APIs REST, pois o time de mob
 
 - Em caso de sucesso, a chave Pix deve ser excluída do sistema;
 
+- Em caso de chave não encontrada, deve-se retornar status de erro `404-NOT_FOUND` com uma mensagem amigável para o usuário;
+
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
 ## Informações de suporte
