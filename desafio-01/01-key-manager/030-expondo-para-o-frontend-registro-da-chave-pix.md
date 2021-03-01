@@ -14,7 +14,7 @@ Lembre-se de seguir as boas práticas de design de APIs REST, pois o time de mob
 
 - Em caso de sucesso, a chave Pix deve ser registrada e armazenada no sistema;
 
-- Em caso de chave já existente, deve-se retornar o status de erro `402-UNPROCESSABLE_ENTITY` com uma mensagem amigável para o usuário;
+- Em caso de chave já existente, deve-se retornar o status de erro `422-UNPROCESSABLE_ENTITY` com uma mensagem amigável para o usuário;
 
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
