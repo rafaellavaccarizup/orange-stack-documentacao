@@ -14,11 +14,15 @@ Para registrar ou excluir uma chave Pix globalmente, precisamos nos integrar ao 
 
 Lembre-se, nosso sistema precisa manter um "link" entre a chave cadastrada no nosso sistema e a chave registrada no Sistema Pix do BCB, caso contrário não poderemos compartilhá-la nem excluí-la futuramente. Ou seja, uma chave desconhecida pelo BCB é uma chave inválida para qualquer fim.
 
+O BCB será o sistema responsável por gerar a chave do tipo `ALEATORIA` em vez do nosso sistema. Portanto, nesse caso, o BCB ignorará qualquer chave enviada pelo nosso sistema.
+
 ## Resultado Esperado
 
 - Ao cadastrar uma chave no nosso sistema, deve-se garantir que ela esteja devidamente registrada no Sistema Pix do BCB;
 
 - Ao excluir uma chave existente no nosso sistema, deve-se garantir que ela tenha sido excluída primeiramente do Sistema Pix do BCB;
+
+- Ao registrar uma chave do tipo `ALEATORIA`, deve-se atualizar a chave no nosso sistema com a chave gerada pelo BCB;
 
 - Uma chave Pix no nosso sistema somente poderá ser disponibilizada para uso dos nossos usuários (compartilhamento, geração de cobranças, pagamentos etc) quando ela estiver devidamente registrada e linkada à uma chave Pix existente no BCB;
 
