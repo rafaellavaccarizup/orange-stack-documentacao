@@ -10,9 +10,9 @@ Por esse motivo, sempre que registrarmos uma chave Pix no nosso sistema ela tamb
 
 Para registrar ou excluir uma chave Pix globalmente, precisamos nos integrar ao Sistema Pix do BCB por meio de uma API REST disponibilizada por eles. Para acessar a API e analisá-la, basta acessar o link abaixo:
 
-[http://localhost:8888/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/](http://localhost:8888/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/)
+[http://localhost:8082/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/](http://localhost:8082/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/)
 
-Lembre-se, nosso sistema precisa **manter um link** entre a chave cadastrada no nosso sistema e a chave registrada no Sistema Pix do BCB, caso contrário não poderemos compartilhá-la nem excluí-la futuramente. Ou seja, uma chave desconhecida pelo BCB é uma chave inválida para qualquer fim.
+Lembre-se, nosso sistema precisa manter um "link" entre a chave cadastrada no nosso sistema e a chave registrada no Sistema Pix do BCB, caso contrário não poderemos compartilhá-la nem excluí-la futuramente. Ou seja, uma chave desconhecida pelo BCB é uma chave inválida para qualquer fim.
 
 ## Resultado Esperado
 
