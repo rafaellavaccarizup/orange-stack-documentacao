@@ -13,35 +13,25 @@ anos, portanto é extremamente importante a escolha das mesmas.
 
 Nosso mais experiente membro do time, sugeriu os seguintes itens:
 
-Linguagem de programação
-
-- [Kotlin](https://kotlinlang.org/)
-
-Tecnologias
-
-- [Micronaut](http://micronaut.io/)
-
-Gerenciador de dependência
-
-- [Gradle](https://gradle.org/)
+- Vamos escrever todo código com a linguagem de programação [Kotlin](https://kotlinlang.org/);
+- Também vamos usar as tecnologias [Micronaut](http://micronaut.io/) e [gRPC](https://grpc.io/) para criar nossa API;
+- E por fim, usaremos o [Gradle](https://gradle.org/) para rodar nosso build, testes e gerenciar nossas dependências;
 
 ### Hora de começar, por onde começar?
 
-Existem várias maneiras de se começar, o **recomendado** e utilizado no mercado (e na Zup) é o [Micronaut Initializr!](https://micronaut.io/launch/)
+Existem várias maneiras de se começar um projeto com Micronaut, uma forma simples e bastante utilizada no mercado é via [Micronaut Launch!](https://micronaut.io/launch/)
 
-* Está em dúvida de como gerar um projeto gRPC com Micronaut? Não se preocupe [gravamos um vídeo explicativo para você!](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be)
+* Não lembra como criar um projeto gRPC com Micronaut? Não seja por isso, os [primeiros minutos desse vídeo](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be) podem te ajudar;
 
 ## Resultado Esperado
 
 Projeto gerado com as tecnologias sugeridas:
 
 - [Kotlin](https://kotlinlang.org/)
-- [Micronaut](http://micronaut.io/)
+- [Micronaut](http://micronaut.io/) e [gRPC](https://grpc.io/)
 - [Gradle](https://gradle.org/)
 
 ## Informações de suporte
-
-- Não lembra como criar um projeto gRPC com Micronaut? Não seja por isso, os [primeiros minutos desse vídeo](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be) podem te ajudar;
 
 - Não esqueça de [configurar seu IntelliJ](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be) para seu projeto Micronaut;
 
