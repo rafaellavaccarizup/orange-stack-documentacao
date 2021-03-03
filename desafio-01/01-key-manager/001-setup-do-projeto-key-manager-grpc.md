@@ -22,6 +22,7 @@ Nosso mais experiente membro do time, sugeriu os seguintes itens:
 Existem várias maneiras de se começar um projeto com Micronaut, uma forma simples e bastante utilizada no mercado é via [Micronaut Launch!](https://micronaut.io/launch/)
 
 * Não lembra como criar um projeto gRPC com Micronaut? Não seja por isso, os [primeiros minutos desse vídeo](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be) podem te ajudar;
+* Não esqueça de [configurar seu IntelliJ](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be) para seu projeto Micronaut;
 
 ## Resultado Esperado
 
@@ -32,7 +33,5 @@ Projeto gerado com as tecnologias sugeridas:
 - [Gradle](https://gradle.org/)
 
 ## Informações de suporte
-
-- Não esqueça de [configurar seu IntelliJ](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be) para seu projeto Micronaut;
 
 - Está recebendo o erro `Caused by: java.lang.ClassNotFoundException: org.fusesource.jansi.WindowsAnsiOutputStream` ao startar sua aplicação no Windows? Não se assuste! Talvez o problema esteja relacionado [com essa issue](https://stackoverflow.com/questions/57855094/windowsansioutputstream-class-not-found) do Micronaut;
