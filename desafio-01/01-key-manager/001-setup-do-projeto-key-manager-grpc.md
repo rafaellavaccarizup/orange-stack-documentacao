@@ -29,7 +29,7 @@ Gerenciador de dependência
 
 Existem várias maneiras de se começar, o **recomendado** e utilizado no mercado (e na Zup) é o [Micronaut Initializr!](https://micronaut.io/launch/)
 
-* Está em dúvida de como gerar o projeto? Não se preocupe [gravamos um vídeo explicativo para você!](https://drive.google.com/file/d/1uGE8X15_mVz0AG4pttgEgfCxtDbV-zxn/view?usp=sharing)
+* Está em dúvida de como gerar um projeto gRPC com Micronaut? Não se preocupe [gravamos um vídeo explicativo para você!](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be)
 
 ## Resultado Esperado
 
@@ -38,3 +38,11 @@ Projeto gerado com as tecnologias sugeridas:
 - [Kotlin](https://kotlinlang.org/)
 - [Micronaut](http://micronaut.io/)
 - [Gradle](https://gradle.org/)
+
+## Informações de suporte
+
+- Não lembra como criar um projeto gRPC com Micronaut? Não seja por isso, os [primeiros minutos desse vídeo](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be) podem te ajudar;
+
+- Não esqueça de [configurar seu IntelliJ](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be) para seu projeto Micronaut;
+
+- Está recebendo o erro `Caused by: java.lang.ClassNotFoundException: org.fusesource.jansi.WindowsAnsiOutputStream` ao startar sua aplicação no Windows? Não se assuste! Talvez o problema esteja relacionado [com essa issue](https://stackoverflow.com/questions/57855094/windowsansioutputstream-class-not-found) do Micronaut;
