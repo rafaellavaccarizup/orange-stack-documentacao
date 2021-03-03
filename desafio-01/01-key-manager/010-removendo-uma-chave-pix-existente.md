@@ -25,6 +25,11 @@ A chave pode ser removida somente pelo seu dono (cliente).
 
 ## Informações de suporte
 
-- Os dados do cliente e de sua conta corrente **devem ser obtidos do [Sistema ERP do Itaú](http://localhost:9091/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/)**; 
+- Os dados do cliente e de sua conta corrente **devem ser obtidos do [Sistema ERP do Itaú](http://localhost:9091/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/)**;
+
+- Quer saber o porquê não trafegamos as chaves do PIX abertamente? [Aqui tem uma explicação sobre boas práticas de trafegar dados sensíveis]()
+- Não lembra como tratar erro e retornar um `NOT_FOUND`? Nesse [vídeo conversamos sobre tratamento de erros com gRPC](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be);
 
 ## Sugestões de busca de conteúdo
+
+- Quer entender um pouco mais sobre os possíveis status numa API gRPC? [Aqui você pode conhecer cada um deles e entender quando utilizá-los](https://developers.google.com/maps-booking/reference/grpc-api/status_codes)
