@@ -59,4 +59,10 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 
 ## Sugestões de busca de conteúdo
 
+- Precisa trabalhar com REGEX em Kotlin? Com certeza [esse artigo](https://www.baeldung.com/kotlin/regular-expressions) pode te ajudar;
+
 - Quer entender um pouco mais sobre os possíveis status numa API gRPC? [Aqui você pode conhecer cada um deles e entender quando utilizá-los](https://developers.google.com/maps-booking/reference/grpc-api/status_codes)
+  
+- Como está seu arquivo Protobuf? Lembre-se sempre de definir um [valor default para o tipo `Enum`](https://developers.google.com/protocol-buffers/docs/proto3#enum);
+
+- Precisa converter um objeto do modelo gRPC para um objeto de modelo de domínio? Uma forma elegante de fazer isso em Kotlin é com [Extension Functions](https://medium.com/collabcode/adicionando-extension-functions-no-kotlin-17092afbe0c3);
