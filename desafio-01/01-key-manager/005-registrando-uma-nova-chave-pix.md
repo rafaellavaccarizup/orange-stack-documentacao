@@ -66,3 +66,6 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 - Como está seu arquivo Protobuf? Lembre-se sempre de definir um [valor default para o tipo `Enum`](https://developers.google.com/protocol-buffers/docs/proto3#enum);
 
 - Precisa converter um objeto do modelo gRPC para um objeto de modelo de domínio? Uma forma elegante de fazer isso em Kotlin é com [Extension Functions](https://medium.com/collabcode/adicionando-extension-functions-no-kotlin-17092afbe0c3);
+
+## Como nós implementamos
+Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://www.youtube.com/watch?v=62872eBIMxE&feature=youtu.be) Você vai ver como foi o passo que seguimos para realizar essa tarefa
