@@ -40,4 +40,5 @@ A idéia é que nosso sistema KeyManager consiga consultar chaves por Pix ID par
 
 - Precisa encontrar o nome de uma instituição (participante) pelo seu ISPB? Basta acessar essa [Relação de participantes do STR - Ambiente de Produção do BCB](https://www.bcb.gov.br/pom/spb/estatistica/port/ASTR003.pdf) e exportá-la clicando no link **Arquivo CSV** do PDF;
 
-## Sugestões de busca de conteúdo
+## Como nós implementamos
+Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://www.youtube.com/watch?v=SNRyo3Phh7s&feature=youtu.be) você vai ver como foi o passo que seguimos para realizar essa tarefa
