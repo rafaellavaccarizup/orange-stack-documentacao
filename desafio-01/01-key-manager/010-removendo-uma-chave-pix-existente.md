@@ -36,3 +36,6 @@ A chave pode ser removida somente pelo seu dono (cliente).
 ## Sugestões de busca de conteúdo
 
 - Quer entender um pouco mais sobre os possíveis status numa API gRPC? [Aqui você pode conhecer cada um deles e entender quando utilizá-los](https://developers.google.com/maps-booking/reference/grpc-api/status_codes)
+
+## Como nós implementamos
+Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://www.youtube.com/watch?v=8xJaftn9Ggw&feature=youtu.be) você vai ver como foi o passo que seguimos para realizar essa tarefa
