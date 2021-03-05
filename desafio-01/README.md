@@ -20,7 +20,7 @@ Por o Pix se tratar de produto novo no mercado, decidimos criar uma **fachada (f
 
 - [00 - Desafio: Pix](README.md)
 - [01 - Arquitetura do projeto e tecnologias](001-arquitetura-do-projeto-e-ambiente.md)
-    - [01.1 - Setup do ambiente]()
+    - [01.1 - Setup do ambiente](005-setup-do-ambiente.md)
 - [02 - Modulo Key-Manager](01-key-manager/)
     - [02.1 - Setup do projeto: key-manager-grpc](01-key-manager/001-setup-do-projeto-key-manager-grpc.md)
     - [02.2 - Registrando uma nova chave Pix](01-key-manager/005-registrando-uma-nova-chave-pix.md)
