@@ -56,7 +56,7 @@ Ao levantar todos os serviços, dois deles muito importantes estarão no ar:
 
 Como desenvolvedor(a), para acessá-los, você precisa ler e estudar a documentação da API REST gerada pelo Swagger por ambos os serviços nos seguintes links:
 
-* [Documentação da API REST do Sistema ERP do ITAU](ttp://localhost:9091/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/);
+* [Documentação da API REST do Sistema ERP do ITAU](http://localhost:9091/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/);
 * [Documentação da API REST do Sistema Pix do Banco Central do Brasil (BCB)](http://localhost:8082/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/);
 
 Não se preocupe com eles nesse momento, pois durante as atividades você saberá exatamente o que deve fazer. Agora, basta acessar os links acima e verificar se eles abrem corretamente no seu navegador.
