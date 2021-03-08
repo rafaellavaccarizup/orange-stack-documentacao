@@ -19,5 +19,5 @@ Lembre-se de seguir as boas práticas de design de APIs REST, pois o time de mob
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
 ## Informações de suporte
-
-## Sugestões de busca de conteúdo
+- Quer saber como retornar um objeto em formato JSON com o Micronaut? [Esse vídeo](https://www.youtube.com/watch?v=PML9YWZUnbk&feature=youtu.be) tem uma explicação sobre como você pode fazer isso
+- Quer saber como você pode escrever queries com o Micronaut? [Neste vídeo](https://www.youtube.com/watch?v=cph_Ei7tulY&feature=youtu.be) é mostrada como criar métodos nos repositórios que são mapeados para queries
