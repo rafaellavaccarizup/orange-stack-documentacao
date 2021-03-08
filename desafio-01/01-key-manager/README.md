@@ -12,16 +12,36 @@ Dessa forma, nosso **objetivo** é garantir que nossos usuários possam:
 
 # Entendendo a Arquitetura do Projeto
 
-Por o Pix se tratar de produto novo no mercado, decidimos criar uma **fachada (façade)** com o intuito aproveitar e estender os recursos existentes na nossa atual plataforma e assim diminuir o impacto das mudanças na mesma. Portanto, para esse projeto, nossa arquitetura será baseada em microservices para trazer maior flexibilidade e produtividade durante o desenvolvimento. Não só isso, com essa distribuição dos módulos nós poderemos escalá-los de forma independente e isolada.
+Por o Pix se tratar de produto novo no mercado, decidimos criar uma **fachada (façade)** com o intuito aproveitar e estender os recursos existentes na nossa atual plataforma (ERP-Itau) e assim diminuir o impacto das mudanças na mesma. Portanto, para esse projeto, nossa arquitetura será baseada em microservices para trazer maior flexibilidade e produtividade durante o desenvolvimento. Não só isso, com essa distribuição dos módulos nós poderemos escalá-los de forma independente e isolada.
 
 ![Arquitetura do projeto Pix](../../recursos/diagramas/PIX.png "Arquitetura do projeto Pix")
+
+Para desenvolver todas as funcionalidades, precisaremos implementar 4 (quatro) microsserviços utilizando a **Orange Stack**, que nada mais é do que as tecnologias, serviços nas nuvens e práticas de deployment recomendadas pelas equipes de engenharia da Zup e Itau. Ao falarmos dessa stack, nós falamos de tecnologias como:
+
+* Kotlin como linguagem de programação dos microsserviços;
+* Micronaut e todos seus módulos como base de desenvolvimento para tirar proveitos de recursos na nuvens;
+* gRPC para integração dos microsserviços dentro da nossa infraestrutura;
+* Kafka para mensageria assincrona e desacoplamento entre os microsserviços;
+* Redis para cache distribuído;
+* OAuth2, OpenId e Keycloak para segurança: autenticação e autorização;
+* RDBMS (PostgreSQL e MySQL) e DynamoDB para armazenar e gerenciar nossos dados;
+* e vários serviços especializados da AWS;
+
+Falando em microsserviços, nossos 4 serviços serão estes:
+
+- **KeyManager-gRPC**: microsserviço responsável por fazer todo o gerenciamento das chaves Pix dos nossos clientes (usuários), além de ser o ponto central de comunicação da nossa arquitetura para busca de chaves;
+- **KeyManager-REST**: microsserviço responsável por expor serviço KeyManager-gRPC através de uma API REST de tal forma que ela possa ser consumida pelo time de frontend de forma eficiente e segura;
+- **Payment-gRPC**: microsserviço responsável por gerar cobranças Pix que serão compartilhadas via QR Code por nossos usuários; junto isso, haverá também a possibilidade de efetuar pagamentos a partir de um QR Code;
+- **Payment-REST**: assim como o KeyManager-REST, esse microsserviço servirá de fachada para o time de frontend, ou seja, ele cuidará de expor uma API REST para os endpoints do microsserviço Payment-gRPC;
+
+Em cada microsserviço precisamos ficar a atentos a requisitos não-funcionais como performance, escalabilidade, segurança e resiliência, além da qualidade e design do código produzido.
 
 # Indice
 
 - [00 - Desafio: Pix](README.md)
-- [01 - Arquitetura do projeto e tecnologias](../001-arquitetura-do-projeto-e-ambiente.md)
+- [01 - Arquitetura do projeto e tecnologias](#entendendo-a-arquitetura-do-projeto)
     - [01.1 - Setup do ambiente](../005-setup-do-ambiente.md)
-- [02 - Modulo Key-Manager](/)
+- [02 - Modulo Key-Manager]()
     - [02.1 - Setup do projeto: key-manager-grpc](001-setup-do-projeto-key-manager-grpc.md)
     - [02.2 - Registrando uma nova chave Pix](005-registrando-uma-nova-chave-pix.md)
     - [02.3 - Removendo uma chave Pix existente](010-removendo-uma-chave-pix-existente.md)
