@@ -12,7 +12,7 @@ Durante o ciclo de desenvolvimento do nosso projeto PIX, vamos precisar nos cone
 
 Primeiramente, baixe nosso arquivo `docker-compose.yml` que simulará toda a infraestrutura necessária para rodarmos o Desafio PIX:
 
-* [`docker-compose.yml`](xxx)
+* [`docker-compose.yml`](00-ambiente/docker-compose.yml)
 
 Este arquivo contém todos os serviços (containers) que iremos precisar e consumir nesse desafio, como o Sistema ERP do Itáu, o Sistema PIX do BCB, um broker de mensagens Kafka, entre outros.
 
