@@ -26,6 +26,8 @@ Para listar todas as chaves Pix cadastradas, precisamos que o usuário informe o
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
 ## Informações de suporte
+- Tem dúvidas em como criar um endpoint para listagem? [Neste vídeo](https://www.youtube.com/watch?v=PML9YWZUnbk&feature=youtu.be) você pode conferir sobre como realizar uma listagem com Micronaut e JPA
+- Quer saber como fazer uma query Micronaut Data? [Esse vídeo](https://www.youtube.com/watch?v=cph_Ei7tulY&feature=youtu.be) pode te ajudar a como criar essa query no repositório
 
 ## Como nós implementamos
 Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://www.youtube.com/watch?v=YSLGHdvOvDw&feature=youtu.be) Você vai ver como foi o passo que seguimos para realizar essa tarefa
