@@ -52,5 +52,7 @@ Por o Pix se tratar de produto novo no mercado, decidimos criar uma **fachada (f
 
 # Outras informações 
 
+Aqui estão listados alguns artigos, documentações e links interessantes caso você queira se contextualizar um pouco mais sobre o Pix e seu uso no mundo real:
+
 - [Bacen OpenAPI 3.0: Especificação da API Pix](https://github.com/bacen/pix-api)
 - [Bacen OpenAPI: Especificação da API DICT - Diretório de Identificadores de Contas Transacionais do PIX](https://github.com/bacen/pix-dict-api)
