@@ -20,6 +20,9 @@ Lembre-se de seguir as boas práticas de design de APIs REST, pois o time de mob
 
 ## Informações de suporte
 - Quer saber como criar um endpoint para atender requisições POST no Micronaut? [Este vídeo](https://www.youtube.com/watch?v=PWBEwECz4y4&feature=youtu.be) mostra como criar um controller que aceita esse tipo de requisição
+- Quer ver como podemos validar os dados da requisição? [Neste vídeo](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be) é mostrado como você pode utilizar a Bean Validation para isso.
+- Talvez você precise converter o objeto de entrada em um objeto de domínio. [Nesse vídeo](https://www.youtube.com/watch?v=Hoi3-Plm0uo&feature=youtu.be) mostramos uma forma de realizar essa conversão
+- Quer saber como retornar um status code no Micronaut e adicionar informações nos Headers da Resposta? [Esse vídeo](https://www.youtube.com/watch?v=wgvIFkR5ea0&feature=youtu.be) tem uma explicação sobre como você pode fazer isso
 - Não lembra o que é o protobuf? [Neste vídeo](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be) você vai ver uma introdução ao protobuf e ver o porquê utilizamos ele aqui
 - Quer saber como lidar com erros do gRPC? [Neste vídeo](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be) é mostrado como lidar com os possíveis erros de uma chamada remota
 
