@@ -27,4 +27,5 @@ Para listar todas as chaves Pix cadastradas, precisamos que o usuário informe o
 
 ## Informações de suporte
 
-## Sugestões de busca de conteúdo
+## Como nós implementamos
+Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://www.youtube.com/watch?v=YSLGHdvOvDw&feature=youtu.be) Você vai ver como foi o passo que seguimos para realizar essa tarefa
