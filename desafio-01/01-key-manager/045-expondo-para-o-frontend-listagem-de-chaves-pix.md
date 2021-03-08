@@ -17,6 +17,7 @@ Lembre-se de seguir as boas práticas de design de APIs REST, pois o time de mob
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
 ## Informações de suporte
+- Quer saber como retornar um objeto em formato JSON com o Micronaut? [Esse vídeo](https://www.youtube.com/watch?v=PML9YWZUnbk&feature=youtu.be) tem uma explicação sobre como você pode fazer isso
 
 ## Como nós implementamos
 Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://www.youtube.com/watch?v=Eki5B21v6zw&feature=youtu.be) Você vai ver como foi o passo que seguimos para realizar essa tarefa
