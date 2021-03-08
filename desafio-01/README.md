@@ -19,7 +19,7 @@ Por o Pix se tratar de produto novo no mercado, decidimos criar uma **fachada (f
 Para desenvolver todas as funcionalidades, precisaremos implementar 4 (quatro) microsserviços utilizando a **Orange Stack**, que nada mais é do que as tecnologias, serviços nas nuvens e práticas de deployment recomendadas pelas equipes de engenharia da Zup e Itau. Ao falarmos dessa stack, nós falamos de tecnologias como:
 
 * Kotlin como linguagem de programação dos microsserviços;
-* Micronaut e todos seus módulos como base de desenvolvimento para tirar proveitos de recursos na nuvens;
+* Micronaut e todos seus módulos como base de desenvolvimento para tirar proveitos de recursos nas nuvens;
 * gRPC para integração dos microsserviços dentro da nossa infraestrutura;
 * Kafka para mensageria assincrona e desacoplamento entre os microsserviços;
 * Redis para cache distribuído;
