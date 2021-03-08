@@ -38,7 +38,7 @@ Em cada microsserviço precisamos ficar a atentos a requisitos não-funcionais c
 
 # Indice
 
-- [00 - Desafio: Pix](README.md)
+- [00 - Desafio: Pix](#desafio-pix)
 - [01 - Arquitetura do projeto e tecnologias](#entendendo-a-arquitetura-do-projeto)
     - [01.1 - Setup do ambiente](../005-setup-do-ambiente.md)
 - [02 - Modulo Key-Manager]()
