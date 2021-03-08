@@ -19,6 +19,9 @@ Lembre-se de seguir as boas práticas de design de APIs REST, pois o time de mob
 - Em caso de erro, deve-se retornar o erro específico e amigável para o usuário final;
 
 ## Informações de suporte
+- Quer saber como criar um endpoint para atender requisições POST no Micronaut? [Este vídeo](https://www.youtube.com/watch?v=PWBEwECz4y4&feature=youtu.be) mostra como criar um controller que aceita esse tipo de requisição
+- Não lembra o que é o protobuf? [Neste vídeo](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be) você vai ver uma introdução ao protobuf e ver o porquê utilizamos ele aqui
+- Quer saber como lidar com erros do gRPC? [Neste vídeo](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be) é mostrado como lidar com os possíveis erros de uma chamada remota
 
 ## Como nós implementamos
 Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://www.youtube.com/watch?v=QBi4i7tpj98&feature=youtu.be) Você vai ver como foi o passo que seguimos para realizar essa tarefa
