@@ -45,7 +45,7 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 
 - Para salvar os dados no banco de dados vamos precisar criar uma camada de comunicação com o banco de dados. Tem dúvidas sobre como criar essa camada de comunicação com o banco de dados? [Esse vídeo pode te ajudar](https://www.youtube.com/watch?v=pWu2mqaKFEc&feature=youtu.be)
 
-- Para se comunicar com o sistema do Itaú temos que fazer uma requisição HTTP. Quer saber como podemos criar um client HTTP com Micronaut? [??? Esse vídeo pode te ajudar ???]()
+- Para se comunicar com o sistema do Itaú temos que fazer uma requisição HTTP. Quer saber como podemos criar um client HTTP com Micronaut? [Esse vídeo pode te ajudar](https://www.youtube.com/watch?v=9nPRHbToxAc&feature=youtu.be)
 
 - Uma boa prática é receber dados como URLs através de configurações dinâmicas. Podemos ler esses dados lá do `application.yaml`. [??? Aqui tem um exemplo que mostra como fazer isso ???]()
 
