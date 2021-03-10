@@ -55,7 +55,7 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 
 - Precisa validar os dados de entrada de forma declarativa? Aqui discutimos como usar as [anotações da Bean Validation](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be);
   
-- Para cada tipo de chave fazemos uma validação diferente. Quer saber como criar uma validação customizada com Micronaut? [??? Aqui tem um vídeo que pode te ajudar ???]()
+- Para cada tipo de chave fazemos uma validação diferente. Quer saber como criar uma validação customizada com Micronaut? [Aqui tem um vídeo que pode te ajudar](https://www.youtube.com/watch?v=UCHFApcJVW0&feature=youtu.be)
 
 ## Sugestões de busca de conteúdo
 
