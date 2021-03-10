@@ -30,9 +30,9 @@ Um detalhe importante, toda chave Pix registrada no BCB pelo nosso serviço deve
 
 ## Informações de suporte
 
-- Vai consumir a API REST do Sistema Pix do BCB? Aqui explicamos como podemos criar [??? um client HTTP com Micronaut ???]();
+- Vai consumir a API REST do Sistema Pix do BCB? Aqui explicamos como podemos criar [um client HTTP com Micronaut](https://www.youtube.com/watch?v=9nPRHbToxAc&feature=youtu.be);
 
-- Não sabe como consumir uma API REST que utiliza o formato XML? Não desanime, [??? nesse vídeo ???]() mostramos como é fácil fazer isso;
+- Não sabe como consumir uma API REST que utiliza o formato XML? Não desanime, [nesse vídeo](https://www.youtube.com/watch?v=4MG_H-lKydI&feature=youtu.be) mostramos como é fácil fazer isso;
 
 ## Como nós implementamos
 Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://www.youtube.com/watch?v=qDEc_c5OYhY&feature=youtu.be) você vai ver como foi o passo que seguimos para realizar essa tarefa
