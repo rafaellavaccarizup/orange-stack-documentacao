@@ -10,6 +10,8 @@ Dessa forma, nosso **objetivo** é garantir que nossos usuários possam:
 1. efetuar pagamentos e transferências via Pix na nossa plataforma;
 2. registrar suas chaves Pix em nossa plataforma usando suas informações pessoais: CPF, telefone celular, email ou uma chave aleatória. Com uma chave registrada, será possível receber e pagar via Pix;
 
+Para facilitar ainda mais o entendimento sobre o Desafio PIX e arquitetura proposta para esse projeto, nós [gravamos esse vídeo](https://www.youtube.com/watch?v=pe0m6ATJlOI&feature=youtu.be) para que você não tenha dúvidas!
+
 # Entendendo a Arquitetura do Projeto
 
 Por o Pix se tratar de produto novo no mercado, decidimos criar uma **fachada (façade)** com o intuito aproveitar e estender os recursos existentes na nossa atual plataforma (ERP-Itau) e assim diminuir o impacto das mudanças na mesma. Portanto, para esse projeto, nossa arquitetura será baseada em microservices para trazer maior flexibilidade e produtividade durante o desenvolvimento. Não só isso, com essa distribuição dos módulos nós poderemos escalá-los de forma independente e isolada.
