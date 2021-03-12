@@ -26,8 +26,6 @@ A chave pode ser removida somente pelo seu dono (cliente).
 ## Informações de suporte
 
 - Os dados do cliente e de sua conta corrente **devem ser obtidos do [Sistema ERP do Itaú](http://localhost:9091/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/)**;
-
-- Quer saber o porquê não trafegamos as chaves do PIX abertamente? [??? Aqui tem uma explicação sobre boas práticas de trafegar dados sensíveis ???]()
   
 - Não lembra como tratar erro e retornar um status `NOT_FOUND`? Nesse [vídeo conversamos sobre tratamento de erros com gRPC](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be);
   
