@@ -17,7 +17,9 @@ neste caso, usando Amazon EKS. O diagrama abaixo pode ajudar a ilustrar o cenár
 Para uma melhor organização, crie a estrutura na raiz de seu projeto /pipeline/helm ou /pipeline/manifestos.
 
 Como pré-requisito neste passo, precisamos que você adicione em seu artefato yaml (manifesto ou helm chart) 1 configmap
-e 1 secrets com os nomes:
+e 1 secrets e configurar sua aplicação para conectar em um banco de dados postgresql. Objetivando a segurança dos dados
+(somos guardiões), nós iremos criar e configurar a string de conexão, usuário e senha nesses recursos. Segue um exemplo
+de nomenclatura:
 
 configmap: "NOME-DO-SEU-REPOSITORIO-configmap"
 
@@ -49,6 +51,13 @@ Abaixo um exemplo, considerando o arquivo deployment.yaml de um helm chart:
                 name: meu-repositorio-configmap
             - secretRef:
                 name: meu-repositorio-secrets
+```
+
+Também precisamos que altere o service de sua app para LoadBalancer e adicione essa annotation:
+
+```
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-internal: "true"
 ```
 
 3. O codebuild precisa de um arquivo de configuração com instruções para construir o build. Nesse ponto o esperado é um arquivo
@@ -83,10 +92,8 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...  
-      - docker image ls
       - docker build -t $DEPLOYMENT_NAME . 
       - docker tag $DEPLOYMENT_NAME:$IMAGE_TAG $URL_REPO/$DEPLOYMENT_NAME:$IMAGE_TAG
-      - docker image ls
       - echo Build completed on `date`  
 
   post_build:
@@ -102,7 +109,7 @@ phases:
       - kubectl get nodes
       - helm upgrade -i $DEPLOYMENT_NAME pipeline/helm/$DEPLOYMENT_NAME/ --values pipeline/helm/$DEPLOYMENT_NAME/values.yaml
 ```
-OBS: Atente-se as linhas 77 e 98 pois tem algumas dicas que podem ser bem úteis.
+OBS: Atente-se as linhas 77 e 96 pois tem algumas dicas que podem ser bem úteis.
 
 4. Com o projeto pronto para ser constrúido na esteira de CI/CD, preencha [este](AQUI-DEVERÁ-TER-O-LINK-DO-FORMULARIO) formulário
 com o seu repositório público.
