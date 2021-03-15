@@ -109,7 +109,7 @@ phases:
       - kubectl get nodes
       - helm upgrade -i $DEPLOYMENT_NAME pipeline/helm/$DEPLOYMENT_NAME/ --values pipeline/helm/$DEPLOYMENT_NAME/values.yaml
 ```
-OBS: Atente-se as linhas 77 e 96 pois tem algumas dicas que podem ser bem úteis.
+OBS: Atente-se as linhas 86 e 105 pois tem algumas dicas que podem ser bem úteis.
 
 4. Com o projeto pronto para ser constrúido na esteira de CI/CD, preencha [este](AQUI-DEVERÁ-TER-O-LINK-DO-FORMULARIO) formulário
 com o seu repositório público.
