@@ -1,7 +1,7 @@
 # Deployment do serviços: Uma abordagem ops
 
 
-Com o projeto pronto para ser constrúido na esteira de CI/CD, preencha [este](AQUI-DEVERÁ-TER-O-LINK-DO-FORMULARIO) formulário
+Com o projeto pronto para ser constrúido na esteira de CI/CD, preencha [este](https://docs.google.com/spreadsheets/d/1vlVrhgQ_8OyRV5vpLWyPnfugTY3HLHukGelbR6CxH2g/edit?usp=sharing) formulário
 com o seu repositório público.
 
 Uma vez que o deployment seja bem sucedido, devolveremos o endpoint para que você possa validar.
