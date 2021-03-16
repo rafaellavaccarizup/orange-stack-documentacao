@@ -5,7 +5,7 @@ de build em /pipeline/buildspec.yaml
 
 Segue um exemplo válido de buildspec.yaml para este cenário:
 
-```
+```yml
 version: 0.2
 
 phases:
@@ -49,11 +49,33 @@ phases:
       - kubectl get nodes
       - helm upgrade -i $DEPLOYMENT_NAME pipeline/helm/$DEPLOYMENT_NAME/ --values pipeline/helm/$DEPLOYMENT_NAME/values.yaml
 ```
-OBS: Atente-se as linhas 26 e 45 pois tem algumas dicas que podem ser bem úteis.
+OBS: Atente-se a linha em pre_build: 
+
+```yml
+- sh gradlew build
+```
+
+e em post_build
+
+```yml
+- helm upgrade -i $DEPLOYMENT_NAME pipeline/helm/$DEPLOYMENT_NAME/ --values pipeline/helm/$DEPLOYMENT_NAME/values.yaml
+```
+
+Ajuste-as de acordo com seu processo de build e deploy (kubectl ou helm)
+
 
 ## Informações de suporte
 
-- Caso queira relembrar sobre o funcionamento do codebuild, esse [link](LINK-PARA-O-CONTEUDO) pode ajudar.
+- Caso queira relembrar sobre o funcionamento do codebuild, os links abaixo podem ajudar.
+
+
+[Codebuild: O que é?](https://youtu.be/ESetAFRhn5M)
+
+[Codebuild: Buildspec.yaml](https://youtu.be/8JXAwykjp-Q)
+
+[Codebuild: Criando projeto](https://youtu.be/IswwVdJREHI)
+
+[Codebuild: Explicando a criação do projeto](https://youtu.be/iTkDmOhxIvo)
 
 ## Como nós implementamos
 Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](AQUI-DEVERA-TER-O-LINK-DO-VIDEO-QUE-SERA-EDITADO) Você verá como foi o passo que seguimos para realizar essa tarefa

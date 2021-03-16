@@ -18,7 +18,7 @@ secrets: "NOME-DO-SEUREPOSITORIO-secrets"
 
 Abaixo um exemplo, considerando o arquivo deployment.yaml de um helm chart:
 
-```
+```yml
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
@@ -78,8 +78,13 @@ public.ecr.aws/d8b2x5c9/orange-stack-pix-keymanager-grpc
 
 ## Informações de suporte
 
-- Manifestos, yamls e kubernetes não soa familar? [Esse link](LINK-PARA-O-CONTEUDO) poderá ser útil.
-- Neste [link](LINK-PARA-O-CONTEUDO) você encontrará maiores informações sobre helm
+- Manifestos, yamls e kubernetes não soa familar? [Esse link](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/fatura/65.rodando-nossa-aplicacao-k8s.md) poderá ser útil.
+
+- Nos links você encontrará maiores informações sobre helm
+
+[helm 01](https://www.youtube.com/watch?v=6uoUNcM_JoY)
+[helm 02](https://www.youtube.com/watch?v=9raXC_eTec8)
+[helm 03](https://www.youtube.com/watch?v=UfCPMRV9J-c)
 
 ## Como nós implementamos
 Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](AQUI-DEVERA-TER-O-LINK-DO-VIDEO-QUE-SERA-EDITADO) Você verá como foi o passo que seguimos para realizar essa tarefa

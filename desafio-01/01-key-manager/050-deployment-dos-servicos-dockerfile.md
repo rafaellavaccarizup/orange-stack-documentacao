@@ -16,7 +16,7 @@ O artefato do build de seu projeto é uma imagem docker, por isso, é necessári
 
 ## Informações de suporte
 
-- Dúvidas em como criar um Dockerfile [Esse link](LINK-PARA-O-CONTEUDO) tem uma explicação sobre como você pode fazer isso.
+- Dúvidas em como criar um Dockerfile [Esse link](https://github.com/docker/labs/tree/master/developer-tools/java/O) tem uma explicação sobre como você pode fazer isso.
 
 
 ## Como nós implementamos
