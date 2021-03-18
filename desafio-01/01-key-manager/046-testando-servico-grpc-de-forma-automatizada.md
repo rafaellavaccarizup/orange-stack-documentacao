@@ -38,8 +38,10 @@ O que esperamos ao final dessa atividade e que também consideramos importante:
 
 - Não sabe como escrever um teste de unidade em Kotlin? Nesse artigo você aprende [como escrever testes com Kotlin e jUnit 5](](https://www.baeldung.com/kotlin/junit-5-kotlin));
 - Está tendo dificuldades para escrever seu primeiro teste de integração com `@MicronautTest`? Não seja por isso, a [documentação do Micronaut](https://micronaut-projects.github.io/micronaut-test/latest/guide/#junit5) é nossa melhor amiga nesse momento;
+- Não está fácil escrever o primeiro teste para consumir seu endpoint gRPC? A documentação do Micronaut explica [como testar uma API gRPC](https://micronaut-projects.github.io/micronaut-grpc/snapshot/guide/index.html#_testing_the_server);
 - Dificuldade para configurar um banco de dados em memória? Nesse artigo você aprende [como configurar o banco H2 na sua aplicação](https://micronaut-projects.github.io/micronaut-sql/latest/guide/#jdbc);
 - Não conseguiu mockar os serviços externos nos seus testes? Relaxa, na documentação do Micronaut você aprende [como usar a anotação `@MockBean`](https://micronaut-projects.github.io/micronaut-test/latest/guide/#_using_mockito_mocks);
+- Está se perguntando como o Micronaut gerencia as transações com o banco de dados durante os testes? Mais uma vez [a documentação](https://micronaut-projects.github.io/micronaut-test/latest/guide/#_transaction_semantics) está aí para anos ajudar;
 
 ## Como nós implementamos
 
