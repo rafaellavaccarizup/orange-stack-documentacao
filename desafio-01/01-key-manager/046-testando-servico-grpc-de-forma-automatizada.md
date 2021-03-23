@@ -2,7 +2,7 @@
 
 ## Necessidades
 
-Nós finalizamos a implementação do serviço KeyManager-gRPC e, a partir, precisamos nos preparar para coloca-lo em produção, mas antes precisamos testar todas as funcionalidades para garantir que tudo esteja em perfeito funcionamento antes do deploy.
+Nós finalizamos a implementação do serviço KeyManager-gRPC e, a partir de agora, precisamos nos preparar para coloca-lo em produção, mas antes precisamos testar todas as funcionalidades para garantir que tudo esteja em perfeito funcionamento antes do deploy.
 
 Eu sei, eu sei... você já testou sua aplicação de ponta a ponta, não é mesmo? A verdade é que embora tenhamos feito os testes com a ferramenta [BloomRPC](https://appimage.github.io/BloomRPC/) e exercitado a integração através do serviço KeyMangaer-REST nós fizemos isso de forma totalmente **manual**. Mas será que foi suficiente?
 
