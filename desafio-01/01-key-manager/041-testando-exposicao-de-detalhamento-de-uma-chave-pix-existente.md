@@ -1,4 +1,4 @@
-# Testando o Exposição do serviço de detalhamento de uma chave Pix existente
+# Testando a Exposição do serviço de detalhamento de uma chave Pix existente
 
 ## Necessidades
 

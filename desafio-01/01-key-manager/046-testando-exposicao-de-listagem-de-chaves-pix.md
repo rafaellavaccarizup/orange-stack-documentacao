@@ -1,4 +1,4 @@
-# Testando o Exposição do serviço de listagem de chaves Pix
+# Testando a Exposição do serviço de listagem de chaves Pix
 
 ## Necessidades
 

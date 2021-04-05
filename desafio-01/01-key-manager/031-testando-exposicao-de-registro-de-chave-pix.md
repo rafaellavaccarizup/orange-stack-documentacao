@@ -1,4 +1,4 @@
-# Testando o Exposição do serviço de registro de chave Pix
+# Testando a Exposição do serviço de registro de chave Pix
 
 ## Necessidades
 
