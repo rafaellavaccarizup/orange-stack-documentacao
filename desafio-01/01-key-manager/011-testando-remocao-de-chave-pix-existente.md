@@ -41,5 +41,5 @@ O que esperamos ao final dessa atividade e que também consideramos importante:
 
 ## Como nós implementamos
 
-- Está curioso(a) para saber como nós da Zup Edu escrevemos testes para esse endpoint gRPC? Não seja por isso, [??? nós gravamos esse vídeo ???](xxx) para você perceber que não tem muito mistério nessa tarefa;
+- Está curioso(a) para saber como nós da Zup Edu escrevemos testes para esse endpoint gRPC? Não seja por isso, [nós gravamos esse vídeo](https://www.youtube.com/watch?v=Qqim-yNRkCU) para você perceber que não tem muito mistério nessa tarefa;
 

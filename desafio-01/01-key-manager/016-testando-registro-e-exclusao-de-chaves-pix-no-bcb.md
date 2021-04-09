@@ -43,5 +43,5 @@ O que esperamos ao final dessa atividade e que também consideramos importante:
 
 ## Como nós implementamos
 
-- Curioso para saber como ajustamos nossos testes para as mudanças do código de produção? Fica tranquilo, a gente gravou [??? esse vídeo ???](xxx) para te ajudar a entender o que fizemos;
+- Curioso para saber como ajustamos nossos testes para as mudanças do código de produção? Fica tranquilo, a gente gravou [esse vídeo](https://www.youtube.com/watch?v=ZA0y02GDxA4) para te ajudar a entender o que fizemos;
 

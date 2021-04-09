@@ -39,5 +39,5 @@ O que esperamos ao final dessa atividade e que também consideramos importante:
 
 ## Como nós implementamos
 
-- Nós também escrevemos testes para essa funcionalidade, que saber como? Segue [??? nosso vídeo ???](xxx) com tudo que você tem direito;
+- Nós também escrevemos testes para essa funcionalidade, que saber como? Segue [nosso vídeo](https://www.youtube.com/watch?v=m4DqgdV7sfg) com tudo que você tem direito;
 

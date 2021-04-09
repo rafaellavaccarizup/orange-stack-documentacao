@@ -48,7 +48,7 @@ O que esperamos ao final dessa atividade e que também consideramos importante:
 
 ## Como nós implementamos
 
-- Quer saber como nós da Zup Edu cobrimos com testes nosso serviço gRPC? [??? Neste vídeo ???](xxx) você vai ver como ficou a escrita dos **testes de integração** que implementamos;
+- Quer saber como nós da Zup Edu cobrimos com testes nosso serviço gRPC? [Neste vídeo](https://www.youtube.com/watch?v=gmF_C64phRk) você vai ver como ficou a escrita dos **testes de integração** que implementamos;
 
 - Sabia que nós da Zup Edu favorecemos **testes de unidade** para código que não toca sistemas externos? [??? Nesse vídeo ???](xxx) a gente cobriu as lógicas de negócio com testes de unidade;
 

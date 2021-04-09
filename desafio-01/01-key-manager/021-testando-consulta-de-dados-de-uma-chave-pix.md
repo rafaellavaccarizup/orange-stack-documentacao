@@ -41,5 +41,5 @@ O que esperamos ao final dessa atividade e que também consideramos importante:
 
 ## Como nós implementamos
 
-- Quer saber como a gente da Zup Edu escreveu os testes para essa atividade? Dá uma olhada [??? no vídeo ???](xxx) que gravamos;
+- Quer saber como a gente da Zup Edu escreveu os testes para essa atividade? Dá uma olhada [no vídeo](https://www.youtube.com/watch?v=i3OUPUaQefA) que gravamos;
 

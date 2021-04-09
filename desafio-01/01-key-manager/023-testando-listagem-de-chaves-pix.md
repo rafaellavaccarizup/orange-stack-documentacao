@@ -39,5 +39,5 @@ O que esperamos ao final dessa atividade e que também consideramos importante:
 
 ## Como nós implementamos
 
-- Testar essa atividade não foi difícil, mas ainda assim você quer ver como nós da Zup Edu fizemos? Cola junto na gente e assiste [??? esse vídeo ???](xxx) que gravamos para você;
+- Testar essa atividade não foi difícil, mas ainda assim você quer ver como nós da Zup Edu fizemos? Cola junto na gente e assiste [esse vídeo](https://www.youtube.com/watch?v=ehMgmMtyPKQ) que gravamos para você;
 
