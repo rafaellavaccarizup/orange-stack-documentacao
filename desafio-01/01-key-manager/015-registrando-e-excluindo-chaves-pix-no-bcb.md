@@ -34,6 +34,8 @@ Um detalhe importante, toda chave Pix registrada no BCB pelo nosso serviço deve
 
 - Não sabe como consumir uma API REST que utiliza o formato XML? Não desanime, [nesse vídeo](https://www.youtube.com/watch?v=4MG_H-lKydI&feature=youtu.be) mostramos como é fácil fazer isso;
 
+- Está com problemas para identificar por que seu client REST está retornado erro? Uma boa prática é [habilitar o log das chamadas HTTP](https://docs.micronaut.io/latest/guide/index.html#_debugging_tracing_the_http_client) do client REST do Micronaut;
+
 ## Como nós implementamos
 Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://www.youtube.com/watch?v=qDEc_c5OYhY&feature=youtu.be) você vai ver como foi o passo que seguimos para realizar essa tarefa
 
