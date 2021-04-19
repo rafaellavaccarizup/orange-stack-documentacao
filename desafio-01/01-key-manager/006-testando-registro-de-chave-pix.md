@@ -28,6 +28,8 @@ Para guia-lo(a) nessa atividade, elencamos algumas restrições e pontos de aten
 - favoreça **mocks para chamadas à serviços externos**, como a API REST do Sistema ERP-ITAU e do Sistema Pix do BCB;
 - fique sempre de olho na **cobertura do seu código**, especialmente nas branches de código, como `if`, `else`, `while`, `for`, `try-catch` etc;
 
+Quer entender por que adotamos as restrições acima? [Assiste a esse vídeo](https://www.youtube.com/watch?v=IMvjNpG6320) para entender os detalhes do porquê acreditamos que esse é um bom caminho.
+
 ## Resultado Esperado
 
 O que esperamos ao final dessa atividade e que também consideramos importante:
@@ -50,5 +52,5 @@ O que esperamos ao final dessa atividade e que também consideramos importante:
 
 - Quer saber como nós da Zup Edu cobrimos com testes nosso serviço gRPC? [Neste vídeo](https://www.youtube.com/watch?v=gmF_C64phRk) você vai ver como ficou a escrita dos **testes de integração** que implementamos;
 
-- Sabia que nós da Zup Edu favorecemos **testes de unidade** para código que não toca sistemas externos? [??? Nesse vídeo ???](xxx) a gente cobriu as lógicas de negócio com testes de unidade;
+- Sabia que nós da Zup Edu favorecemos **testes de unidade** para código que não toca sistemas externos? [Nesse vídeo](https://www.youtube.com/watch?v=M3fhh0YaK88) a gente cobriu as lógicas de negócio com testes de unidade;
 

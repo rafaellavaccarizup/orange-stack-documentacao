@@ -22,6 +22,8 @@ Para guia-lo(a) nessa atividade, elencamos algumas restrições e pontos de aten
 - favoreça **mocks para chamadas à serviços externos**, como a API REST do Sistema ERP-ITAU e do Sistema Pix do BCB;
 - fique sempre de olho na **cobertura do seu código**, especialmente nas branches de código, como `if`, `else`, `while`, `for`, `try-catch` etc;
 
+Quer entender por que adotamos as restrições acima? [Assiste a esse vídeo](https://www.youtube.com/watch?v=IMvjNpG6320) para entender os detalhes do porquê acreditamos que esse é um bom caminho.
+
 ## Resultado Esperado
 
 O que esperamos ao final dessa atividade e que também consideramos importante:
