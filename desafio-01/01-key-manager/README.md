@@ -64,6 +64,11 @@ Em cada microsserviço precisamos ficar a atentos a requisitos não-funcionais c
     - [02.18 - Testando a Exposição do serviço de detalhamento de uma chave Pix existente](041-testando-exposicao-de-detalhamento-de-uma-chave-pix-existente.md)
     - [02.19 - Expondo para o frontend: Listagem de todas as chaves Pix](045-expondo-para-o-frontend-listagem-de-chaves-pix.md)
     - [02.20 - Testando a Exposição do serviço de listagem de chaves Pix](046-testando-exposicao-de-listagem-de-chaves-pix.md)
+- [03 - Deployment: Uma abordagem Ops]()
+    - [03.01 - Containerizando nossas aplicações em imagens Docker](050-deployment-dos-servicos-dockerfile.md)
+    - [03.02 - Preparando as aplicações para o Kubernetes](055-deployment-dos-servicos-manifestos-k8s..md)
+    - [03.03 - Configurando nossa pipeline com AWS CodeBuild](060-deployment-dos-servicos-codebuild.md)
+    - [03.04 - Deployando as aplicações e validando na AWS](065-deployment-dos-servicos-validando.md)
 
 # Outras informações 
 
