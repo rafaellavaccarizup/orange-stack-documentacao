@@ -8,7 +8,7 @@ Nosso usuário precisa excluir suas chaves Pix cadastradas, pois dessa forma, se
 
 Para excluir uma chave Pix, precisamos que o usuário informe os seguintes dados:
 
-- **Pix ID** (idenficiador interno da chave Pix) deve ser obrigatório;
+- **Pix ID** (identificador interno da chave Pix) deve ser obrigatório;
 
 - **Identificador do cliente** deve ser obrigatório:
    - Código interno do cliente na Instituição Financeira existente no [Sistema ERP do Itaú](http://localhost:9091/api/v1/private/contas/todas);
