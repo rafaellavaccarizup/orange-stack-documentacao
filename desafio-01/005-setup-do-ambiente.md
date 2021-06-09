@@ -1,12 +1,12 @@
-# Setup do Ambiente - Desafio PIX
+# Setup do Projeto
 
 ## Objetivo
 
-Antes de começarmos o desenvolvimento do Desafio PIX precisamos preparar e configurar nosso ambiente local de desenvolvimento, dessa forma não ficamos dependente de um ambiente externo nas nuvens ou de uma VPN da empresa. Desse modo, precisamos rodar algumas aplicações e serviços de infraestrutura na nosso máquina.
+Antes de começarmos o desenvolvimento do Desafio PIX precisamos preparar e configurar nosso ambiente local de desenvolvimento, dessa forma não ficamos dependentes de um ambiente externo nas nuvens ou de uma VPN da empresa. Desse modo, precisamos rodar algumas aplicações e serviços de infraestrutura na nossa máquina.
 
 ## Descrição
 
-Durante o ciclo de desenvolvimento do nosso projeto PIX, vamos precisar nos conectar a alguns serviços externos como por exemplo banco de dados, fila de mensagens, sistemas satélites utilizados pelo ITAU e serviços do Banco Central do Brasil (BCB) para efetuar transações via PIX, entre outros.
+Durante o ciclo de desenvolvimento do nosso projeto PIX, vamos precisar nos conectar a alguns serviços externos como por exemplo banco de dados, fila de mensagens, sistemas satélites utilizados pelo ITAÚ e serviços do Banco Central do Brasil (BCB) para efetuar transações via PIX, entre outros.
 
 ### Passo 1: baixando o `docker-compose.yml`
 
@@ -42,7 +42,7 @@ Para ter certeza que todos os serviços estão de fato rodando, você pode execu
 docker-compose ps
 ```
 
-Com esse comando, você visualiza não somente o status do serviço (`Up` siginifica que está rodando), como também a porta externa que cada serviço mapeou no Docker.
+Com esse comando, você visualiza não somente o status do serviço (`Up` significa que está rodando), como também a porta externa que cada serviço mapeou no Docker.
 
 Outra forma de verificar quais as portas expostas mapeadas em cada serviço é verificando diretamente no arquivo `docker-compose.yml`. Além da porta, podemos verificar outras informações importantes como usuário, senha de alguns desses serviços.
 
@@ -50,13 +50,13 @@ Outra forma de verificar quais as portas expostas mapeadas em cada serviço é v
 
 Ao levantar todos os serviços, dois deles muito importantes estarão no ar:
 
-* **Sistema ERP do ITAU**: representa o principal sistema do ITAU na qual, é justamente esse serviço que nos permitirá consumir os dados dos clientes, usuários e correntistas do banco, além da consulta de saldo e execução de operações financeiras. Por se tratar de um sistema muito grande e antigo, nosso container simulará apenas parte do todo, ou seja, somente o que nos interessa para o Desafio PIX;
+* **Sistema ERP do ITAU**: representa o principal sistema do ITAÚ na qual, é justamente esse serviço que nos permitirá consumir os dados dos clientes, usuários e correntistas do banco, além da consulta de saldo e execução de operações financeiras. Por se tratar de um sistema muito grande e antigo, nosso container simulará apenas parte do todo, ou seja, somente o que nos interessa para o Desafio PIX;
 
 * **Sistema Pix do Banco Central do Brasil (BCB)**: representa o serviço do Bacen (BCB) de registro e gerenciamento de chaves Pix de todos as pessoas físicas e jurídicas do Brasil, além de fornecer as algumas operações para efetuar transações financeiras através de chaves Pix;
 
 Como desenvolvedor(a), para acessá-los, você precisa ler e estudar a documentação da API REST gerada pelo Swagger por ambos os serviços nos seguintes links:
 
-* [Documentação da API REST do Sistema ERP do ITAU](http://localhost:9091/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/);
+* [Documentação da API REST do Sistema ERP do ITAÚ](http://localhost:9091/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/);
 * [Documentação da API REST do Sistema Pix do Banco Central do Brasil (BCB)](http://localhost:8082/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/);
 
 Não se preocupe com eles nesse momento, pois durante as atividades você saberá exatamente o que deve fazer. Agora, basta acessar os links acima e verificar se eles abrem corretamente no seu navegador.
