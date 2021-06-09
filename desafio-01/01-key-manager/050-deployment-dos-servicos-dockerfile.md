@@ -23,4 +23,4 @@ O artefato do build de seu projeto é uma imagem docker, por isso, é necessári
 
 ## Como nós implementamos
 
-Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](AQUI-DEVERA-TER-O-LINK-DO-VIDEO-QUE-SERA-EDITADO) Você verá como foi o passo que seguimos para realizar essa tarefa.
+Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](AQUI-DEVERA-TER-O-LINK-DO-VIDEO-QUE-SERA-EDITADO) você verá como foi o passo que seguimos para realizar essa tarefa.
