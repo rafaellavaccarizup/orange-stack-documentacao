@@ -1,6 +1,6 @@
 # Deployment do serviços: Uma abordagem ops
 
-> Antes de começar a fazer as atividades de deploy, volte para o [conteúdo teórico para aprender a utilizar as tecnologias](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/orange-talent-1/README.md#deploy) e tirar o máximo de proveito das atividades. 
+> Antes de começar a fazer as atividades de deploy, volte para o [conteúdo teórico para aprender a utilizar as tecnologias](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/orange-talent-4/README.md#deploy) e tirar o máximo de proveito das atividades. 
 
 Neste desafio, o esperado é que o resultado de seus builds, sejam imagens docker e artefatos aptos a serem "deployados" em um cluster
 kubernetes.
