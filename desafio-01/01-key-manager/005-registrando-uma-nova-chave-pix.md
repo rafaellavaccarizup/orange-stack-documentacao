@@ -43,15 +43,15 @@ Para registrar uma chave Pix, precisamos que o usuário informe os seguintes dad
 
 - Para criar os serviços gRPC é necessário criar um arquivo Protobuf. Tem dúvidas sobre como criar um protobuf? [Esse vídeo pode te ajudar com o passo a passo](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be)
 
-- Para salvar os dados no banco de dados vamos precisar criar uma camada de comunicação com o banco de dados. Tem dúvidas sobre como criar essa camada de comunicação com o banco de dados? [Esse vídeo pode te ajudar](https://www.youtube.com/watch?v=pWu2mqaKFEc&feature=youtu.be)
+- Para salvar os dados no banco de dados, vamos precisar criar uma camada de comunicação com o banco de dados. Tem dúvidas sobre como criar essa camada de comunicação com o banco de dados? [Esse vídeo pode te ajudar](https://www.youtube.com/watch?v=pWu2mqaKFEc&feature=youtu.be)
 
-- Para se comunicar com o sistema do Itaú temos que fazer uma requisição HTTP. Quer saber como podemos criar um client HTTP com Micronaut? [Esse vídeo pode te ajudar](https://www.youtube.com/watch?v=9nPRHbToxAc&feature=youtu.be)
+- Para se comunicar com o sistema do Itaú temos que fazer uma requisição HTTP. Quer saber como podemos criar um cliente HTTP com Micronaut? [Esse vídeo pode te ajudar](https://www.youtube.com/watch?v=9nPRHbToxAc&feature=youtu.be)
 
-- Uma boa prática é receber dados como URLs através de configurações dinâmicas. Podemos ler esses dados lá do `application.yaml`. [??? Aqui tem um exemplo que mostra como fazer isso ???]()
+- Uma boa prática é receber dados como URLs através de configurações dinâmicas. Podemos ler esses dados lá do `application.yaml`.? [Aqui tem um exemplo que mostra como fazer isso]()
 
 - Precisa tratar os diversos tipos de erros e retornar o status apropriado da sua API? Vale a pena assistir esse [vídeo sobre tratamento de erros](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be);
 
-- Quer saber o porquê não trafegamos as chaves do PIX abertamente? [??? Aqui tem uma explicação sobre boas práticas de trafegar dados sensíveis ???]()
+- Quer saber o porquê não trafegamos as chaves do PIX abertamente? [Aqui tem uma explicação sobre boas práticas de trafegar dados sensíveis]()
 
 - Precisa validar os dados de entrada de forma declarativa? Aqui discutimos como usar as [anotações da Bean Validation](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be);
   
