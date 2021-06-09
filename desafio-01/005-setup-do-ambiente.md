@@ -1,4 +1,4 @@
-# Setup do Projeto
+# Setup do Ambiente
 
 ## Objetivo
 
