@@ -2,7 +2,7 @@
 
 ## Necessidades
 
-Agora vamos escrever os testes para o código de produção do endpoint responsável por [expor o exclusão de uma chave Pix existente](035-expondo-para-o-frontend-remocao-de-uma-chave-pix-existente.md).
+Agora vamos escrever os testes para o código de produção do endpoint responsável por [expor a exclusão de uma chave Pix existente](035-expondo-para-o-frontend-remocao-de-uma-chave-pix-existente.md).
 
 Quanto **menor a dependência com meio externo melhor para manutenção dos testes**. Depender do estado de bancos de dados, cache e outros sistemas terceiros pode simplificar a escrita do código de testes, da preparação do ambiente e principalmente diminuir a fragilidade dos testes.
 
@@ -10,17 +10,17 @@ Lembre-se, tudo que estudamos e aprendemos até este momento também se aplica p
    
 ## Restrições
 
-Escrever testes automatizados para a API REST que cuida da Exposição de Remoção de uma chave Pix existente de modo que os testes garantam o que foi especificado na atividade.
+Escrever testes automatizados para a API REST que cuida da Exposição de Remoção de uma chave Pix existente de modo que os testes garantem o que foi especificado na atividade.
 
-Para guia-lo(a) nessa atividade, elencamos algumas restrições e pontos de atenção:
+Para guiá-lo(a) nessa atividade, elencamos algumas restrições e pontos de atenção:
 
-- favoreça a escrita de **testes de unidade** para lógicas de negócio que não fazem integração com serviços externos (banco de dados, APIs REST, mensageria, sistema de arquivos etc);
-- favoreça a escrita de **testes de integração** para lógicas de negócio que conversam com serviços externos, como banco de dados, APIs REST etc;
-- para tornar o teste mais próximo da produção, nos testes de integração **levante um servidor gRPC embarcado** e consuma os endpoints nos testes de integração;
-- lembre-se de **testar os fluxos alternativos**, como cenários de erros do sistema ou entrada de dados inválida pelo usuário/serviço;
-- favoreça o uso de um **banco de dados em memória** para facilitar a limpeza dos dados e simplificar o ambiente na sua pipeline de CI/CD;
-- favoreça **mocks para chamadas à serviços externos**, como a API REST do Sistema ERP-ITAU e do Sistema Pix do BCB;
-- fique sempre de olho na **cobertura do seu código**, especialmente nas branches de código, como `if`, `else`, `while`, `for`, `try-catch` etc;
+- Favoreça a escrita de **testes de unidade** para lógicas de negócio que não fazem integração com serviços externos (banco de dados, APIs REST, mensageria, sistema de arquivos etc);
+- Favoreça a escrita de **testes de integração** para lógicas de negócio que conversam com serviços externos, como banco de dados, APIs REST etc;
+- Para tornar o teste mais próximo da produção, nos testes de integração **levante um servidor gRPC embarcado** e consuma os endpoints nos testes de integração;
+- Lembre-se de **testar os fluxos alternativos**, como cenários de erros do sistema ou entrada de dados inválida pelo usuário/serviço;
+- Favoreça o uso de um **banco de dados em memória** para facilitar a limpeza dos dados e simplificar o ambiente na sua pipeline de CI/CD;
+- Favoreça **mocks para chamadas à serviços externos**, como a API REST do Sistema ERP-ITAÚ e do Sistema Pix do BCB;
+- Fique sempre de olho na **cobertura do seu código**, especialmente nas branches de código, como `if`, `else`, `while`, `for`, `try-catch` etc;
 
 Quer entender por que adotamos as restrições acima? [Assiste a esse vídeo](https://www.youtube.com/watch?v=IMvjNpG6320) para entender os detalhes do porquê acreditamos que esse é um bom caminho.
 
@@ -28,9 +28,9 @@ Quer entender por que adotamos as restrições acima? [Assiste a esse vídeo](ht
 
 O que esperamos ao final dessa atividade e que também consideramos importante:
 
-- ter um percentual de cobertura de no mínimo **90% do código de produção**;
-- ter coberto cenários felizes (happy-path) e fluxos alternativos;
-- não precisar de instruções especiais para preparar o ambiente ou para rodar sua bateria de testes;
+- Ter um percentual de cobertura de no mínimo **90% do código de produção**;
+- Ter coberto cenários felizes (happy-path) e fluxos alternativos;
+- Não precisar de instruções especiais para preparar o ambiente ou para rodar sua bateria de testes;
 - sua bateria de testes deve rodar tanto na sua IDE quanto via **linha de comando**;
 - que outro desenvolvedor(a) do time consiga rodar facilmente a bateria de testes do seu serviço;
 
