@@ -78,4 +78,4 @@ Ajuste-as de acordo com seu processo de build e deploy (kubectl ou helm)
 [Codebuild: Explicando a criação do projeto](https://youtu.be/iTkDmOhxIvo)
 
 ## Como nós implementamos
-Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](AQUI-DEVERA-TER-O-LINK-DO-VIDEO-QUE-SERA-EDITADO) Você verá como foi o passo que seguimos para realizar essa tarefa
+Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://youtu.be/c_6xXrd6hZE) Você verá como foi o passo que seguimos para realizar essa tarefa
