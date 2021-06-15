@@ -78,7 +78,7 @@ public.ecr.aws/d8b2x5c9/orange-stack-pix-keymanager-grpc
 
 ## Informações de suporte
 
-- Manifestos, yamls e kubernetes não soa familar? [Esse link](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/fatura/65.rodando-nossa-aplicacao-k8s.md) poderá ser útil.
+- Manifestos, yamls e kubernetes não soa familiar? [Esse link](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/fatura/65.rodando-nossa-aplicacao-k8s.md) poderá ser útil.
 
 - Nos links você encontrará maiores informações sobre helm
 
@@ -87,4 +87,4 @@ public.ecr.aws/d8b2x5c9/orange-stack-pix-keymanager-grpc
 [helm 03](https://www.youtube.com/watch?v=UfCPMRV9J-c)
 
 ## Como nós implementamos
-Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](AQUI-DEVERA-TER-O-LINK-DO-VIDEO-QUE-SERA-EDITADO) Você verá como foi o passo que seguimos para realizar essa tarefa
+Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://youtu.be/yrEf98--zZI) Você verá como foi o passo que seguimos para realizar essa tarefa

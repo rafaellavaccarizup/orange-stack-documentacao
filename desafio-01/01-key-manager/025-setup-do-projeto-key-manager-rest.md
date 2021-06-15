@@ -27,7 +27,7 @@ Gerenciador de dependência
 
 Existem várias maneiras de se começar, o **recomendado** e utilizado no mercado (e na Zup) é o [Micronaut Initializr!](https://micronaut.io/launch/)
 
-* Está em dúvida de como gerar o projeto? Não se preocupe [gravamos um vídeo explicativo para você!](https://drive.google.com/file/d/1uGE8X15_mVz0AG4pttgEgfCxtDbV-zxn/view?usp=sharing)
+* Está em dúvida de como gerar o projeto? Não se preocupe, [gravamos um vídeo explicativo para você!](https://drive.google.com/file/d/1uGE8X15_mVz0AG4pttgEgfCxtDbV-zxn/view?usp=sharing)
 
 ## Resultado Esperado
 

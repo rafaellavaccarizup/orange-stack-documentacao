@@ -24,7 +24,7 @@ Lembre-se de seguir as boas práticas de design de APIs REST, pois o time de mob
 - Talvez você precise converter o objeto de entrada em um objeto de domínio. [Nesse vídeo](https://www.youtube.com/watch?v=Hoi3-Plm0uo&feature=youtu.be) mostramos uma forma de realizar essa conversão
 - Quer saber como retornar um status code no Micronaut e adicionar informações nos Headers da Resposta? [Esse vídeo](https://www.youtube.com/watch?v=wgvIFkR5ea0&feature=youtu.be) tem uma explicação sobre como você pode fazer isso
 - Não lembra o que é o protobuf? [Neste vídeo](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be) você vai ver uma introdução ao protobuf e ver o porquê utilizamos ele aqui
-- Quer saber como lidar com erros do gRPC? [Neste vídeo](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be) é mostrado como lidar com os possíveis erros de uma chamada remota
+- Quer saber como lidar com os erros do gRPC? [Neste vídeo](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be) é mostrado como lidar com os possíveis erros de uma chamada remota
 
 ## Como nós implementamos
 Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://www.youtube.com/watch?v=QBi4i7tpj98&feature=youtu.be) Você vai ver como foi o passo que seguimos para realizar essa tarefa

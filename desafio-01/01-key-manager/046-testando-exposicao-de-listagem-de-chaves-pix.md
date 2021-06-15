@@ -8,9 +8,9 @@ Lembre-se, tudo que estudamos e aprendemos até este momento também se aplica p
    
 ## Restrições
 
-Escrever testes automatizados para a API REST que cuida da Exposição de Listagem de chaves Pix de modo que os testes garantam o que foi especificado na atividade.
+Escrever testes automatizados para a API REST que cuida da Exposição de Listagem de chaves Pix de modo que os testes garantem o que foi especificado na atividade.
 
-Para guia-lo(a) nessa atividade, elencamos algumas restrições e pontos de atenção:
+Para guiá-lo(a) nessa atividade, elencamos algumas restrições e pontos de atenção:
 
 - favoreça a escrita de **testes de unidade** para lógicas de negócio que não fazem integração com serviços externos (banco de dados, APIs REST, mensageria, sistema de arquivos etc);
 - favoreça a escrita de **testes de integração** para lógicas de negócio que conversam com serviços externos, como banco de dados, APIs REST etc;

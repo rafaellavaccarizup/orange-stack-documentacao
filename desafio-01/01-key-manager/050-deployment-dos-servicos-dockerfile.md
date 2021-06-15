@@ -1,6 +1,6 @@
 # Deployment do serviços: Uma abordagem ops
 
-> Antes de começar a fazer as atividades de deploy, volte para o [conteúdo teórico para aprender a utilizar as tecnologias](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/orange-talent-1/README.md#deploy) e tirar o máximo de proveito das atividades. 
+> Antes de começar a fazer as atividades de deploy, volte para o [conteúdo teórico para aprender a utilizar as tecnologias](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/orange-talent-4/README.md#deploy) e tirar o máximo de proveito das atividades. 
 
 Neste desafio, o esperado é que o resultado de seus builds, sejam imagens docker e artefatos aptos a serem "deployados" em um cluster
 kubernetes.
@@ -18,9 +18,9 @@ O artefato do build de seu projeto é uma imagem docker, por isso, é necessári
 
 ## Informações de suporte
 
-- Dúvidas em como criar um Dockerfile [Esse link](https://github.com/docker/labs/tree/master/developer-tools/java/O) tem uma explicação sobre como você pode fazer isso.
+- Dúvidas em como criar um Dockerfile [Esse link](https://github.com/docker/labs/tree/master/developer-tools/java/) tem uma explicação sobre como você pode fazer isso.
 
 
 ## Como nós implementamos
 
-Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](AQUI-DEVERA-TER-O-LINK-DO-VIDEO-QUE-SERA-EDITADO) Você verá como foi o passo que seguimos para realizar essa tarefa.
+Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://youtu.be/5VvZbL4fGcI) você verá como foi o passo que seguimos para realizar essa tarefa.

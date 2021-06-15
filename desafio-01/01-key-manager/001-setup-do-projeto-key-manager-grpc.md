@@ -34,4 +34,4 @@ Projeto gerado com as tecnologias sugeridas:
 
 ## Informações de suporte
 
-- Está recebendo o erro `Caused by: java.lang.ClassNotFoundException: org.fusesource.jansi.WindowsAnsiOutputStream` ao startar sua aplicação no Windows? Não se assuste! Talvez o problema esteja relacionado [com essa issue](https://stackoverflow.com/questions/57855094/windowsansioutputstream-class-not-found) do Micronaut;
+- Está recebendo o erro `Caused by: java.lang.ClassNotFoundException: org.fusesource.jansi.WindowsAnsiOutputStream` ao iniciar sua aplicação no Windows? Não se assuste! Talvez o problema esteja relacionado [com essa issue](https://stackoverflow.com/questions/57855094/windowsansioutputstream-class-not-found) do Micronaut;

@@ -20,7 +20,7 @@ Lembre-se de seguir as boas práticas de design de APIs REST, pois o time de mob
 
 ## Informações de suporte
 - Não lembra como criar um endpoint de `DELETE` no Micronaut? [Neste vídeo](https://www.youtube.com/watch?v=plojIuEWIPM&feature=youtu.be) você pode conferir como criar esse endpoint
-- Quer saber como lidar com erros do gRPC? [Neste vídeo](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be) é mostrado como lidar com os possíveis erros de uma chamada remota
+- Quer saber como lidar com os erros do gRPC? [Neste vídeo](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be) é mostrado como lidar com os possíveis erros de uma chamada remota
 
 ## Como nós implementamos
 Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://www.youtube.com/watch?v=ZZGjapAaMps&feature=youtu.be) Você vai ver como foi o passo que seguimos para realizar essa tarefa

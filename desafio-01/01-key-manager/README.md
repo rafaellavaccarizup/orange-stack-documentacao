@@ -12,18 +12,18 @@ Dessa forma, nosso **objetivo** é garantir que nossos usuários possam:
 
 Para facilitar ainda mais o entendimento sobre o Desafio PIX e arquitetura proposta para esse projeto, nós [gravamos esse vídeo](https://www.youtube.com/watch?v=pe0m6ATJlOI&feature=youtu.be) para que você não tenha dúvidas!
 
-# Entendendo a Arquitetura do Projeto
+## Entendendo a Arquitetura do Projeto
 
-Por o Pix se tratar de produto novo no mercado, decidimos criar uma **fachada (façade)** com o intuito aproveitar e estender os recursos existentes na nossa atual plataforma (ERP-Itau) e assim diminuir o impacto das mudanças na mesma. Portanto, para esse projeto, nossa arquitetura será baseada em microservices para trazer maior flexibilidade e produtividade durante o desenvolvimento. Não só isso, com essa distribuição dos módulos nós poderemos escalá-los de forma independente e isolada.
+Pelo o Pix se tratar de produto novo no mercado, decidimos criar uma **fachada (façade)** com o intuito aproveitar e estender os recursos existentes na nossa atual plataforma (ERP-Itaú) e assim diminuir o impacto das mudanças na mesma. Portanto, para esse projeto, nossa arquitetura será baseada em microservices para trazer maior flexibilidade e produtividade durante o desenvolvimento. Não só isso, com essa distribuição dos módulos nós poderemos escalá-los de forma independente e isolada.
 
 ![Arquitetura do projeto Pix](../../recursos/diagramas/PIX.png "Arquitetura do projeto Pix")
 
-Para desenvolver todas as funcionalidades, precisaremos implementar 4 (quatro) microsserviços utilizando a **Orange Stack**, que nada mais é do que as tecnologias, serviços nas nuvens e práticas de deployment recomendadas pelas equipes de engenharia da Zup e Itau. Ao falarmos dessa stack, nós falamos de tecnologias como:
+Para desenvolver todas as funcionalidades, precisaremos implementar 4 (quatro) microsserviços utilizando a **Orange Stack**, que nada mais é do que as tecnologias, serviços nas nuvens e práticas de deployment recomendadas pelas equipes de engenharia da Zup e Itaú. Ao falarmos dessa stack, nós falamos de tecnologias como:
 
 * Kotlin como linguagem de programação dos microsserviços;
 * Micronaut e todos seus módulos como base de desenvolvimento para tirar proveitos de recursos nas nuvens;
 * gRPC para integração dos microsserviços dentro da nossa infraestrutura;
-* Kafka para mensageria assincrona e desacoplamento entre os microsserviços;
+* Kafka para mensageria assíncrona e desacoplamento entre os microsserviços;
 * Redis para cache distribuído;
 * OAuth2, OpenId e Keycloak para segurança: autenticação e autorização;
 * RDBMS (PostgreSQL e MySQL) e DynamoDB para armazenar e gerenciar nossos dados;
@@ -31,14 +31,14 @@ Para desenvolver todas as funcionalidades, precisaremos implementar 4 (quatro) m
 
 Falando em microsserviços, nossos 4 serviços serão estes:
 
-- **KeyManager-gRPC**: microsserviço responsável por fazer todo o gerenciamento das chaves Pix dos nossos clientes (usuários), além de ser o ponto central de comunicação da nossa arquitetura para busca de chaves;
-- **KeyManager-REST**: microsserviço responsável por expor serviço KeyManager-gRPC através de uma API REST de tal forma que ela possa ser consumida pelo time de frontend de forma eficiente e segura;
-- **Payment-gRPC**: microsserviço responsável por gerar cobranças Pix que serão compartilhadas via QR Code por nossos usuários; junto isso, haverá também a possibilidade de efetuar pagamentos a partir de um QR Code;
-- **Payment-REST**: assim como o KeyManager-REST, esse microsserviço servirá de fachada para o time de frontend, ou seja, ele cuidará de expor uma API REST para os endpoints do microsserviço Payment-gRPC;
+- **KeyManager-gRPC**: micro serviço responsável por fazer todo o gerenciamento das chaves Pix dos nossos clientes (usuários), além de ser o ponto central de comunicação da nossa arquitetura para busca de chaves;
+- **KeyManager-REST**: micro serviço responsável por expor serviço KeyManager-gRPC através de uma API REST de tal forma que ela possa ser consumida pelo time de frontend de forma eficiente e segura;
+- **Payment-gRPC**: micro serviço responsável por gerar cobranças Pix que serão compartilhadas via QR Code por nossos usuários; junto isso, haverá também a possibilidade de efetuar pagamentos a partir de um QR Code;
+- **Payment-REST**: assim como o KeyManager-REST, esse micro serviço servirá de fachada para o time de frontend, ou seja, ele cuidará de expor uma API REST para os endpoints do microsserviço Payment-gRPC;
 
-Em cada microsserviço precisamos ficar a atentos a requisitos não-funcionais como performance, escalabilidade, segurança e resiliência, além da qualidade e design do código produzido.
+Em cada micro serviço precisamos ficar atentos a requisitos não-funcionais como performance, escalabilidade, segurança e resiliência, além da qualidade e design do código produzido.
 
-# Indice
+# Índice
 
 - [00 - Desafio: Pix](#desafio-pix)
 - [01 - Arquitetura do projeto e tecnologias](#entendendo-a-arquitetura-do-projeto)
@@ -70,7 +70,7 @@ Em cada microsserviço precisamos ficar a atentos a requisitos não-funcionais c
     - [03.03 - Configurando nossa pipeline com AWS CodeBuild](060-deployment-dos-servicos-codebuild.md)
     - [03.04 - Deployando as aplicações e validando na AWS](065-deployment-dos-servicos-validando.md)
 
-# Outras informações 
+## Outras informações 
 
 Aqui estão listados alguns artigos, documentações e links interessantes caso você queira se contextualizar um pouco mais sobre o Pix e seu uso no mundo real:
 
