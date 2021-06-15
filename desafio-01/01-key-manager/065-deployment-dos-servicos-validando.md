@@ -11,4 +11,4 @@ OBS: Como exibido no diagrama abaixo, será necessário conectar na vpn corporat
 ![diagrama desafio deployment](../../recursos/diagramas/diagrama_desafio_deploy.png)
 
 ## Como nós implementamos
-Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](AQUI-DEVERA-TER-O-LINK-DO-VIDEO-QUE-SERA-EDITADO) Você verá como foi o passo que seguimos para realizar essa tarefa
+Quer saber como nós da Zup Edu implementamos esse serviço? [Neste vídeo](https://youtu.be/AbCAxOmeEiY) Você verá como foi o passo que seguimos para realizar essa tarefa
