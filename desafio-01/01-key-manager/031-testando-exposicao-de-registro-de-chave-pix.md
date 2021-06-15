@@ -6,7 +6,7 @@ Com o fim da implementação do endpoint responsável por [expor o registro de u
 
 Nessa tarefa não estamos mais expondo uma API gRPC, mas sim consumindo uma API criada por nós. Consegue perceber o impacto nos testes? Tudo que aprendemos até agora se aplica, mas em uma perspectiva diferente, pois agora somos um cliente gRPC.
 
-Existem duas características importantes que ajudam a definir bons testes de unidade: **eles são isolados e independentes uns dos outros**. Isso quer dizer que um teste de unidade não quebra com mudanças no ambiente (data e hora, fuso horário, idioma, variáveis de ambiente etc) e que ele também pode ser executado em qualquer ordem (um teste não depende de outro). Se você conseguir aplicar essas mesmas características para os testes de integração, então você tem o melhor dos dois mundos!
+Existem duas características importantes que ajudam a definir bons testes de unidade: **eles são isolados e independentes uns dos outros**. Isso quer dizer que um teste de unidade não quebra com mudanças no ambiente (data e hora, fuso horário, idioma, variáveis de ambiente etc) e que ele também pode ser executado em qualquer ordem (um teste não depende de outro). Se você conseguir aplicar essas mesmas características para os testes de integração então você tem o melhor dos dois mundos!
 
 Você acha que consegue aplicar as características acima?
    
